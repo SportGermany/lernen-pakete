@@ -10,7 +10,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-schilderung-schreiben.json",
       "groesse": 27683,
-      "geaendert": "2026-11-19T20:50:20+00:00"
+      "geaendert": "2026-11-19T20:59:24+00:00"
     },
     {
       "id": "deutsch.schilderung-ueberarbeiten",
@@ -21,7 +21,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-schilderung-ueberarbeiten.json",
       "groesse": 28080,
-      "geaendert": "2026-11-19T20:50:20+00:00"
+      "geaendert": "2026-11-19T20:59:24+00:00"
     },
     {
       "id": "deutsch.ah-s31-klassensprecherfahrt",
@@ -32,7 +32,40 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-arbeitsheft-s31-klassensprecherfahrt.json",
       "groesse": 26064,
-      "geaendert": "2026-11-19T20:50:20+00:00"
+      "geaendert": "2026-11-19T20:59:24+00:00"
+    },
+    {
+      "id": "mathe.lgs-einsetzungsverfahren",
+      "typ": "thema",
+      "fach": "mathe",
+      "titel": "Gleichungssysteme: Einsetzungsverfahren",
+      "stufe": "Realschule Bayern · 9. Klasse (Wiederholung aus 8)",
+      "version": "1.0",
+      "pfad": "pakete/mathe/mathe-lgs-einsetzungsverfahren.json",
+      "groesse": 11046,
+      "geaendert": "2026-11-19T21:21:37+00:00"
+    },
+    {
+      "id": "physik.elektrische-leistung",
+      "typ": "thema",
+      "fach": "physik",
+      "titel": "Elektrische Leistung und Energie",
+      "stufe": "Realschule Bayern · 9. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/physik/physik-elektrische-leistung.json",
+      "groesse": 8498,
+      "geaendert": "2026-11-19T21:21:23+00:00"
+    },
+    {
+      "id": "werkzeuge.formelsammlung",
+      "typ": "formelsammlung",
+      "fach": "werkzeuge",
+      "titel": "Formelsammlung Mathe & Physik",
+      "stufe": "Realschule Bayern · 9./10. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/werkzeuge/formelsammlung.json",
+      "groesse": 32429,
+      "geaendert": "2026-11-19T21:20:06+00:00"
     }
   ]
 }

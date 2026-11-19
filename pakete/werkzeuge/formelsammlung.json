@@ -1,0 +1,1472 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "formelsammlung",
+  "id": "werkzeuge.formelsammlung",
+  "version": "1.0",
+  "fach": "werkzeuge",
+  "titel": "Formelsammlung Mathe & Physik",
+  "stufe": "Realschule Bayern · 9./10. Klasse",
+  "gebiete": [
+    {
+      "id": "terme",
+      "titel": "Terme und binomische Formeln",
+      "fach": "mathe",
+      "klasse": "8–9",
+      "formeln": [
+        {
+          "id": "binom-1",
+          "name": "1. binomische Formel",
+          "formel": "(a + b)² = a² + 2ab + b²",
+          "groessen": [
+            [
+              "a, b",
+              "beliebige Zahlen oder Terme",
+              "–"
+            ]
+          ],
+          "stichwoerter": [
+            "ausmultiplizieren",
+            "faktorisieren"
+          ]
+        },
+        {
+          "id": "binom-2",
+          "name": "2. binomische Formel",
+          "formel": "(a − b)² = a² − 2ab + b²",
+          "groessen": [
+            [
+              "a, b",
+              "beliebige Zahlen oder Terme",
+              "–"
+            ]
+          ]
+        },
+        {
+          "id": "binom-3",
+          "name": "3. binomische Formel",
+          "formel": "(a + b)·(a − b) = a² − b²",
+          "groessen": [
+            [
+              "a, b",
+              "beliebige Zahlen oder Terme",
+              "–"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "potenzen",
+      "titel": "Potenzen und Wurzeln",
+      "fach": "mathe",
+      "klasse": "9–10",
+      "formeln": [
+        {
+          "id": "potenz-mal",
+          "name": "Potenzen multiplizieren (gleiche Basis)",
+          "formel": "aᵐ · aⁿ = aᵐ⁺ⁿ",
+          "groessen": [
+            [
+              "a",
+              "Basis",
+              "–"
+            ],
+            [
+              "m, n",
+              "Exponenten",
+              "–"
+            ]
+          ]
+        },
+        {
+          "id": "potenz-durch",
+          "name": "Potenzen dividieren (gleiche Basis)",
+          "formel": "aᵐ : aⁿ = aᵐ⁻ⁿ",
+          "groessen": [
+            [
+              "a",
+              "Basis (a ≠ 0)",
+              "–"
+            ],
+            [
+              "m, n",
+              "Exponenten",
+              "–"
+            ]
+          ]
+        },
+        {
+          "id": "potenz-potenz",
+          "name": "Potenz potenzieren",
+          "formel": "(aᵐ)ⁿ = aᵐ·ⁿ",
+          "groessen": [
+            [
+              "a",
+              "Basis",
+              "–"
+            ],
+            [
+              "m, n",
+              "Exponenten",
+              "–"
+            ]
+          ]
+        },
+        {
+          "id": "potenz-negativ",
+          "name": "Negativer Exponent",
+          "formel": "a⁻ⁿ = 1 : aⁿ",
+          "groessen": [
+            [
+              "a",
+              "Basis (a ≠ 0)",
+              "–"
+            ],
+            [
+              "n",
+              "Exponent",
+              "–"
+            ]
+          ]
+        },
+        {
+          "id": "wurzel-potenz",
+          "name": "Wurzel als Potenz",
+          "formel": "ⁿ√a = a^(1/n)",
+          "groessen": [
+            [
+              "a",
+              "Radikand (a ≥ 0)",
+              "–"
+            ],
+            [
+              "n",
+              "Wurzelexponent",
+              "–"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lineare-funktionen",
+      "titel": "Lineare Funktionen",
+      "fach": "mathe",
+      "klasse": "8–9",
+      "formeln": [
+        {
+          "id": "gerade",
+          "name": "Geradengleichung",
+          "formel": "y = m·x + t",
+          "groessen": [
+            [
+              "m",
+              "Steigung",
+              "–"
+            ],
+            [
+              "t",
+              "y-Achsenabschnitt",
+              "–"
+            ]
+          ],
+          "umstellungen": [
+            "m = (y − t) : x",
+            "t = y − m·x"
+          ],
+          "stichwoerter": [
+            "Gerade",
+            "Steigung"
+          ]
+        },
+        {
+          "id": "steigung",
+          "name": "Steigung aus zwei Punkten",
+          "formel": "m = (y₂ − y₁) : (x₂ − x₁)",
+          "groessen": [
+            [
+              "P₁(x₁|y₁), P₂(x₂|y₂)",
+              "zwei Punkte der Geraden",
+              "–"
+            ]
+          ],
+          "hinweis": "x₁ ≠ x₂"
+        }
+      ]
+    },
+    {
+      "id": "quadratische",
+      "titel": "Quadratische Funktionen und Gleichungen",
+      "fach": "mathe",
+      "klasse": "9",
+      "formeln": [
+        {
+          "id": "scheitelform",
+          "name": "Scheitelpunktform",
+          "formel": "y = a·(x − x_S)² + y_S",
+          "groessen": [
+            [
+              "a",
+              "Formfaktor (a > 0: nach oben geöffnet)",
+              "–"
+            ],
+            [
+              "S(x_S|y_S)",
+              "Scheitelpunkt",
+              "–"
+            ]
+          ],
+          "stichwoerter": [
+            "Parabel",
+            "Scheitel"
+          ]
+        },
+        {
+          "id": "normalform",
+          "name": "Allgemeine Form",
+          "formel": "y = a·x² + b·x + c",
+          "groessen": [
+            [
+              "a, b, c",
+              "Koeffizienten (a ≠ 0)",
+              "–"
+            ]
+          ],
+          "hinweis": "Scheitel: x_S = −b : (2a)"
+        },
+        {
+          "id": "loesungsformel",
+          "name": "Lösungsformel (Mitternachtsformel)",
+          "formel": "x₁,₂ = (−b ± √(b² − 4ac)) : (2a)",
+          "groessen": [
+            [
+              "a, b, c",
+              "Koeffizienten von ax² + bx + c = 0",
+              "–"
+            ]
+          ],
+          "hinweis": "Diskriminante D = b² − 4ac: D > 0 zwei Lösungen, D = 0 eine, D < 0 keine.",
+          "stichwoerter": [
+            "quadratische Gleichung",
+            "Diskriminante"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dreiecke",
+      "titel": "Rechtwinklige Dreiecke",
+      "fach": "mathe",
+      "klasse": "9",
+      "formeln": [
+        {
+          "id": "pythagoras",
+          "name": "Satz des Pythagoras",
+          "formel": "a² + b² = c²",
+          "groessen": [
+            [
+              "a, b",
+              "Katheten",
+              "cm, m …"
+            ],
+            [
+              "c",
+              "Hypotenuse (gegenüber dem rechten Winkel)",
+              "cm, m …"
+            ]
+          ],
+          "umstellungen": [
+            "c = √(a² + b²)",
+            "a = √(c² − b²)",
+            "b = √(c² − a²)"
+          ],
+          "stichwoerter": [
+            "Hypotenuse",
+            "Kathete"
+          ]
+        },
+        {
+          "id": "hoehensatz",
+          "name": "Höhensatz",
+          "formel": "h² = p·q",
+          "groessen": [
+            [
+              "h",
+              "Höhe auf die Hypotenuse",
+              "cm"
+            ],
+            [
+              "p, q",
+              "Hypotenusenabschnitte",
+              "cm"
+            ]
+          ]
+        },
+        {
+          "id": "kathetensatz",
+          "name": "Kathetensatz",
+          "formel": "a² = c·p",
+          "groessen": [
+            [
+              "a",
+              "Kathete",
+              "cm"
+            ],
+            [
+              "c",
+              "Hypotenuse",
+              "cm"
+            ],
+            [
+              "p",
+              "Hypotenusenabschnitt unter a",
+              "cm"
+            ]
+          ],
+          "hinweis": "ebenso b² = c·q"
+        }
+      ]
+    },
+    {
+      "id": "trigonometrie",
+      "titel": "Trigonometrie",
+      "fach": "mathe",
+      "klasse": "10",
+      "formeln": [
+        {
+          "id": "sinus",
+          "name": "Sinus im rechtwinkligen Dreieck",
+          "formel": "sin α = Gegenkathete : Hypotenuse",
+          "groessen": [
+            [
+              "α",
+              "Winkel",
+              "°"
+            ]
+          ],
+          "stichwoerter": [
+            "sin"
+          ]
+        },
+        {
+          "id": "kosinus",
+          "name": "Kosinus im rechtwinkligen Dreieck",
+          "formel": "cos α = Ankathete : Hypotenuse",
+          "groessen": [
+            [
+              "α",
+              "Winkel",
+              "°"
+            ]
+          ],
+          "stichwoerter": [
+            "cos"
+          ]
+        },
+        {
+          "id": "tangens",
+          "name": "Tangens im rechtwinkligen Dreieck",
+          "formel": "tan α = Gegenkathete : Ankathete",
+          "groessen": [
+            [
+              "α",
+              "Winkel",
+              "°"
+            ]
+          ],
+          "stichwoerter": [
+            "tan"
+          ]
+        },
+        {
+          "id": "sinussatz",
+          "name": "Sinussatz",
+          "formel": "a : sin α = b : sin β = c : sin γ",
+          "groessen": [
+            [
+              "a, b, c",
+              "Seiten",
+              "cm"
+            ],
+            [
+              "α, β, γ",
+              "gegenüberliegende Winkel",
+              "°"
+            ]
+          ]
+        },
+        {
+          "id": "kosinussatz",
+          "name": "Kosinussatz",
+          "formel": "c² = a² + b² − 2·a·b·cos γ",
+          "groessen": [
+            [
+              "a, b, c",
+              "Seiten",
+              "cm"
+            ],
+            [
+              "γ",
+              "Winkel zwischen a und b",
+              "°"
+            ]
+          ]
+        },
+        {
+          "id": "dreieck-sinus",
+          "name": "Dreiecksfläche mit Winkel",
+          "formel": "A = ½·a·b·sin γ",
+          "groessen": [
+            [
+              "A",
+              "Flächeninhalt",
+              "cm²"
+            ],
+            [
+              "a, b",
+              "zwei Seiten",
+              "cm"
+            ],
+            [
+              "γ",
+              "eingeschlossener Winkel",
+              "°"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flaechen",
+      "titel": "Flächen und Kreis",
+      "fach": "mathe",
+      "klasse": "8–10",
+      "formeln": [
+        {
+          "id": "rechteck",
+          "name": "Rechteck",
+          "formel": "A = a·b",
+          "groessen": [
+            [
+              "A",
+              "Flächeninhalt",
+              "cm²"
+            ],
+            [
+              "a, b",
+              "Seitenlängen",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "a = A : b",
+            "b = A : a"
+          ]
+        },
+        {
+          "id": "dreieck",
+          "name": "Dreieck",
+          "formel": "A = ½·g·h",
+          "groessen": [
+            [
+              "A",
+              "Flächeninhalt",
+              "cm²"
+            ],
+            [
+              "g",
+              "Grundseite",
+              "cm"
+            ],
+            [
+              "h",
+              "Höhe auf g",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "g = 2·A : h",
+            "h = 2·A : g"
+          ]
+        },
+        {
+          "id": "trapez",
+          "name": "Trapez",
+          "formel": "A = ½·(a + c)·h",
+          "groessen": [
+            [
+              "A",
+              "Flächeninhalt",
+              "cm²"
+            ],
+            [
+              "a, c",
+              "parallele Seiten",
+              "cm"
+            ],
+            [
+              "h",
+              "Höhe",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "h = 2·A : (a + c)"
+          ]
+        },
+        {
+          "id": "kreisumfang",
+          "name": "Kreisumfang",
+          "formel": "u = 2·π·r",
+          "groessen": [
+            [
+              "u",
+              "Umfang",
+              "cm"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "r = u : (2·π)"
+          ],
+          "stichwoerter": [
+            "pi"
+          ]
+        },
+        {
+          "id": "kreisflaeche",
+          "name": "Kreisfläche",
+          "formel": "A = π·r²",
+          "groessen": [
+            [
+              "A",
+              "Flächeninhalt",
+              "cm²"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "r = √(A : π)"
+          ]
+        },
+        {
+          "id": "kreisbogen",
+          "name": "Kreisbogen",
+          "formel": "b = α : 360° · 2·π·r",
+          "groessen": [
+            [
+              "b",
+              "Bogenlänge",
+              "cm"
+            ],
+            [
+              "α",
+              "Mittelpunktswinkel",
+              "°"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ]
+          ]
+        },
+        {
+          "id": "kreissektor",
+          "name": "Kreissektor",
+          "formel": "A = α : 360° · π·r²",
+          "groessen": [
+            [
+              "A",
+              "Flächeninhalt",
+              "cm²"
+            ],
+            [
+              "α",
+              "Mittelpunktswinkel",
+              "°"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koerper",
+      "titel": "Körper",
+      "fach": "mathe",
+      "klasse": "9–10",
+      "formeln": [
+        {
+          "id": "prisma",
+          "name": "Prisma",
+          "formel": "V = G·h",
+          "groessen": [
+            [
+              "V",
+              "Volumen",
+              "cm³"
+            ],
+            [
+              "G",
+              "Grundfläche",
+              "cm²"
+            ],
+            [
+              "h",
+              "Höhe",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "h = V : G",
+            "G = V : h"
+          ]
+        },
+        {
+          "id": "zylinder",
+          "name": "Zylinder (Volumen)",
+          "formel": "V = π·r²·h",
+          "groessen": [
+            [
+              "V",
+              "Volumen",
+              "cm³"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ],
+            [
+              "h",
+              "Höhe",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "h = V : (π·r²)"
+          ]
+        },
+        {
+          "id": "zylinder-oberflaeche",
+          "name": "Zylinder (Oberfläche)",
+          "formel": "O = 2·π·r² + 2·π·r·h",
+          "groessen": [
+            [
+              "O",
+              "Oberflächeninhalt",
+              "cm²"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ],
+            [
+              "h",
+              "Höhe",
+              "cm"
+            ]
+          ]
+        },
+        {
+          "id": "pyramide",
+          "name": "Pyramide",
+          "formel": "V = ⅓·G·h",
+          "groessen": [
+            [
+              "V",
+              "Volumen",
+              "cm³"
+            ],
+            [
+              "G",
+              "Grundfläche",
+              "cm²"
+            ],
+            [
+              "h",
+              "Höhe",
+              "cm"
+            ]
+          ],
+          "umstellungen": [
+            "h = 3·V : G"
+          ]
+        },
+        {
+          "id": "kegel",
+          "name": "Kegel (Volumen)",
+          "formel": "V = ⅓·π·r²·h",
+          "groessen": [
+            [
+              "V",
+              "Volumen",
+              "cm³"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ],
+            [
+              "h",
+              "Höhe",
+              "cm"
+            ]
+          ]
+        },
+        {
+          "id": "kegel-mantel",
+          "name": "Kegel (Mantelfläche)",
+          "formel": "M = π·r·s",
+          "groessen": [
+            [
+              "M",
+              "Mantelfläche",
+              "cm²"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ],
+            [
+              "s",
+              "Mantellinie",
+              "cm"
+            ]
+          ],
+          "hinweis": "s² = r² + h²"
+        },
+        {
+          "id": "kugel",
+          "name": "Kugel (Volumen)",
+          "formel": "V = 4/3·π·r³",
+          "groessen": [
+            [
+              "V",
+              "Volumen",
+              "cm³"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ]
+          ]
+        },
+        {
+          "id": "kugel-oberflaeche",
+          "name": "Kugel (Oberfläche)",
+          "formel": "O = 4·π·r²",
+          "groessen": [
+            [
+              "O",
+              "Oberflächeninhalt",
+              "cm²"
+            ],
+            [
+              "r",
+              "Radius",
+              "cm"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prozent",
+      "titel": "Prozent, Zinsen, Wachstum",
+      "fach": "mathe",
+      "klasse": "9–10",
+      "formeln": [
+        {
+          "id": "prozentwert",
+          "name": "Prozentwert",
+          "formel": "P = G·p : 100",
+          "groessen": [
+            [
+              "P",
+              "Prozentwert",
+              "€, kg …"
+            ],
+            [
+              "G",
+              "Grundwert",
+              "€, kg …"
+            ],
+            [
+              "p",
+              "Prozentsatz (Zahl vor %)",
+              "–"
+            ]
+          ],
+          "umstellungen": [
+            "G = P·100 : p",
+            "p = P·100 : G"
+          ]
+        },
+        {
+          "id": "zinsen",
+          "name": "Jahreszinsen",
+          "formel": "Z = K·p : 100",
+          "groessen": [
+            [
+              "Z",
+              "Zinsen",
+              "€"
+            ],
+            [
+              "K",
+              "Kapital",
+              "€"
+            ],
+            [
+              "p",
+              "Zinssatz (Zahl vor %)",
+              "–"
+            ]
+          ],
+          "umstellungen": [
+            "K = Z·100 : p",
+            "p = Z·100 : K"
+          ],
+          "hinweis": "Für t Tage: Z = K·p : 100 · t : 360"
+        },
+        {
+          "id": "zinseszins",
+          "name": "Zinseszins",
+          "formel": "Kₙ = K₀·(1 + p : 100)ⁿ",
+          "groessen": [
+            [
+              "Kₙ",
+              "Kapital nach n Jahren",
+              "€"
+            ],
+            [
+              "K₀",
+              "Anfangskapital",
+              "€"
+            ],
+            [
+              "p",
+              "Zinssatz",
+              "–"
+            ],
+            [
+              "n",
+              "Anzahl Jahre",
+              "–"
+            ]
+          ]
+        },
+        {
+          "id": "exponentiell",
+          "name": "Exponentielles Wachstum",
+          "formel": "y = a·bˣ",
+          "groessen": [
+            [
+              "a",
+              "Anfangswert",
+              "–"
+            ],
+            [
+              "b",
+              "Wachstumsfaktor (b > 1 Zunahme, 0 < b < 1 Abnahme)",
+              "–"
+            ],
+            [
+              "x",
+              "Anzahl der Zeitschritte",
+              "–"
+            ]
+          ],
+          "stichwoerter": [
+            "Wachstumsfaktor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elektrik",
+      "titel": "Elektrischer Stromkreis",
+      "fach": "physik",
+      "klasse": "8–9",
+      "formeln": [
+        {
+          "id": "ohm",
+          "name": "Widerstand (Ohmsches Gesetz)",
+          "formel": "R = U : I",
+          "groessen": [
+            [
+              "R",
+              "Widerstand",
+              "Ω (Ohm)"
+            ],
+            [
+              "U",
+              "Spannung",
+              "V (Volt)"
+            ],
+            [
+              "I",
+              "Stromstärke",
+              "A (Ampere)"
+            ]
+          ],
+          "umstellungen": [
+            "U = R·I",
+            "I = U : R"
+          ],
+          "hinweis": "Ohmsches Gesetz: Bei konstanter Temperatur ist I proportional zu U.",
+          "stichwoerter": [
+            "Ohm",
+            "Widerstand"
+          ]
+        },
+        {
+          "id": "reihe-widerstand",
+          "name": "Reihenschaltung",
+          "formel": "R_ges = R₁ + R₂",
+          "groessen": [
+            [
+              "R_ges",
+              "Gesamtwiderstand",
+              "Ω"
+            ],
+            [
+              "R₁, R₂",
+              "Einzelwiderstände",
+              "Ω"
+            ]
+          ],
+          "hinweis": "In Reihe: I ist überall gleich, U_ges = U₁ + U₂"
+        },
+        {
+          "id": "parallel-widerstand",
+          "name": "Parallelschaltung",
+          "formel": "1 : R_ges = 1 : R₁ + 1 : R₂",
+          "groessen": [
+            [
+              "R_ges",
+              "Gesamtwiderstand",
+              "Ω"
+            ],
+            [
+              "R₁, R₂",
+              "Einzelwiderstände",
+              "Ω"
+            ]
+          ],
+          "hinweis": "Parallel: U ist überall gleich, I_ges = I₁ + I₂"
+        },
+        {
+          "id": "ladung",
+          "name": "Elektrische Ladung",
+          "formel": "Q = I·t",
+          "groessen": [
+            [
+              "Q",
+              "Ladung",
+              "C (Coulomb) = A·s"
+            ],
+            [
+              "I",
+              "Stromstärke",
+              "A"
+            ],
+            [
+              "t",
+              "Zeit",
+              "s"
+            ]
+          ],
+          "umstellungen": [
+            "I = Q : t",
+            "t = Q : I"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elektrische-energie",
+      "titel": "Elektrische Energie und Leistung",
+      "fach": "physik",
+      "klasse": "9",
+      "formeln": [
+        {
+          "id": "elektrische-leistung",
+          "name": "Elektrische Leistung",
+          "formel": "P = U·I",
+          "groessen": [
+            [
+              "P",
+              "Leistung",
+              "W (Watt)"
+            ],
+            [
+              "U",
+              "Spannung",
+              "V (Volt)"
+            ],
+            [
+              "I",
+              "Stromstärke",
+              "A (Ampere)"
+            ]
+          ],
+          "umstellungen": [
+            "U = P : I",
+            "I = P : U"
+          ],
+          "stichwoerter": [
+            "Watt",
+            "Strom"
+          ]
+        },
+        {
+          "id": "elektrische-energie",
+          "name": "Elektrische Energie",
+          "formel": "E = P·t",
+          "groessen": [
+            [
+              "E",
+              "Energie",
+              "J = W·s, oder kWh"
+            ],
+            [
+              "P",
+              "Leistung",
+              "W"
+            ],
+            [
+              "t",
+              "Zeit",
+              "s oder h"
+            ]
+          ],
+          "umstellungen": [
+            "P = E : t",
+            "t = E : P"
+          ],
+          "hinweis": "1 kWh = 3 600 000 J = 3,6 MJ",
+          "stichwoerter": [
+            "kWh",
+            "Arbeit"
+          ]
+        },
+        {
+          "id": "wirkungsgrad",
+          "name": "Wirkungsgrad",
+          "formel": "η = E_nutz : E_zu",
+          "groessen": [
+            [
+              "η",
+              "Wirkungsgrad (eta)",
+              "– oder %"
+            ],
+            [
+              "E_nutz",
+              "genutzte Energie",
+              "J"
+            ],
+            [
+              "E_zu",
+              "zugeführte Energie",
+              "J"
+            ]
+          ],
+          "umstellungen": [
+            "E_nutz = η·E_zu",
+            "E_zu = E_nutz : η"
+          ],
+          "hinweis": "Ebenso η = P_nutz : P_zu"
+        },
+        {
+          "id": "stromkosten",
+          "name": "Energiekosten",
+          "formel": "Kosten = E·Preis",
+          "groessen": [
+            [
+              "E",
+              "Energie",
+              "kWh"
+            ],
+            [
+              "Preis",
+              "Preis je kWh",
+              "€/kWh oder ct/kWh"
+            ]
+          ]
+        },
+        {
+          "id": "transformator",
+          "name": "Transformator (unbelastet)",
+          "formel": "U₁ : U₂ = N₁ : N₂",
+          "groessen": [
+            [
+              "U₁, U₂",
+              "Spannung an Primär- und Sekundärspule",
+              "V"
+            ],
+            [
+              "N₁, N₂",
+              "Windungszahlen",
+              "–"
+            ]
+          ],
+          "hinweis": "Stromstärken (belastet, ideal): I₁ : I₂ = N₂ : N₁"
+        }
+      ]
+    },
+    {
+      "id": "mechanik",
+      "titel": "Mechanik",
+      "fach": "physik",
+      "klasse": "8–9",
+      "formeln": [
+        {
+          "id": "geschwindigkeit",
+          "name": "Geschwindigkeit",
+          "formel": "v = s : t",
+          "groessen": [
+            [
+              "v",
+              "Geschwindigkeit",
+              "m/s"
+            ],
+            [
+              "s",
+              "Weg",
+              "m"
+            ],
+            [
+              "t",
+              "Zeit",
+              "s"
+            ]
+          ],
+          "umstellungen": [
+            "s = v·t",
+            "t = s : v"
+          ],
+          "hinweis": "1 m/s = 3,6 km/h"
+        },
+        {
+          "id": "dichte",
+          "name": "Dichte",
+          "formel": "ρ = m : V",
+          "groessen": [
+            [
+              "ρ",
+              "Dichte (rho)",
+              "g/cm³ oder kg/m³"
+            ],
+            [
+              "m",
+              "Masse",
+              "g oder kg"
+            ],
+            [
+              "V",
+              "Volumen",
+              "cm³ oder m³"
+            ]
+          ],
+          "umstellungen": [
+            "m = ρ·V",
+            "V = m : ρ"
+          ]
+        },
+        {
+          "id": "gewichtskraft",
+          "name": "Gewichtskraft",
+          "formel": "F_G = m·g",
+          "groessen": [
+            [
+              "F_G",
+              "Gewichtskraft",
+              "N (Newton)"
+            ],
+            [
+              "m",
+              "Masse",
+              "kg"
+            ],
+            [
+              "g",
+              "Ortsfaktor (Erde: 9,81 N/kg)",
+              "N/kg"
+            ]
+          ],
+          "umstellungen": [
+            "m = F_G : g"
+          ]
+        },
+        {
+          "id": "arbeit",
+          "name": "Mechanische Arbeit",
+          "formel": "W = F·s",
+          "groessen": [
+            [
+              "W",
+              "Arbeit",
+              "J = N·m"
+            ],
+            [
+              "F",
+              "Kraft in Wegrichtung",
+              "N"
+            ],
+            [
+              "s",
+              "Weg",
+              "m"
+            ]
+          ],
+          "umstellungen": [
+            "F = W : s",
+            "s = W : F"
+          ]
+        },
+        {
+          "id": "leistung-mechanik",
+          "name": "Mechanische Leistung",
+          "formel": "P = W : t",
+          "groessen": [
+            [
+              "P",
+              "Leistung",
+              "W"
+            ],
+            [
+              "W",
+              "Arbeit",
+              "J"
+            ],
+            [
+              "t",
+              "Zeit",
+              "s"
+            ]
+          ],
+          "umstellungen": [
+            "W = P·t",
+            "t = W : P"
+          ]
+        },
+        {
+          "id": "lageenergie",
+          "name": "Lageenergie (Höhenenergie)",
+          "formel": "E_pot = m·g·h",
+          "groessen": [
+            [
+              "E_pot",
+              "Lageenergie",
+              "J"
+            ],
+            [
+              "m",
+              "Masse",
+              "kg"
+            ],
+            [
+              "g",
+              "Ortsfaktor",
+              "N/kg"
+            ],
+            [
+              "h",
+              "Höhe",
+              "m"
+            ]
+          ],
+          "umstellungen": [
+            "h = E_pot : (m·g)",
+            "m = E_pot : (g·h)"
+          ]
+        },
+        {
+          "id": "bewegungsenergie",
+          "name": "Bewegungsenergie",
+          "formel": "E_kin = ½·m·v²",
+          "groessen": [
+            [
+              "E_kin",
+              "Bewegungsenergie",
+              "J"
+            ],
+            [
+              "m",
+              "Masse",
+              "kg"
+            ],
+            [
+              "v",
+              "Geschwindigkeit",
+              "m/s"
+            ]
+          ],
+          "umstellungen": [
+            "v = √(2·E_kin : m)",
+            "m = 2·E_kin : v²"
+          ]
+        },
+        {
+          "id": "druck",
+          "name": "Druck",
+          "formel": "p = F : A",
+          "groessen": [
+            [
+              "p",
+              "Druck",
+              "Pa = N/m², 1 bar = 100 000 Pa"
+            ],
+            [
+              "F",
+              "Kraft (senkrecht)",
+              "N"
+            ],
+            [
+              "A",
+              "Fläche",
+              "m²"
+            ]
+          ],
+          "umstellungen": [
+            "F = p·A",
+            "A = F : p"
+          ]
+        },
+        {
+          "id": "hebel",
+          "name": "Hebelgesetz",
+          "formel": "F₁·a₁ = F₂·a₂",
+          "groessen": [
+            [
+              "F₁, F₂",
+              "Kräfte",
+              "N"
+            ],
+            [
+              "a₁, a₂",
+              "Hebelarme",
+              "m"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waerme",
+      "titel": "Wärmelehre",
+      "fach": "physik",
+      "klasse": "9",
+      "formeln": [
+        {
+          "id": "waerme",
+          "name": "Wärmemenge",
+          "formel": "Q = c·m·ΔT",
+          "groessen": [
+            [
+              "Q",
+              "Wärme (Energie)",
+              "J"
+            ],
+            [
+              "c",
+              "spezifische Wärmekapazität (Wasser: 4,19 kJ/(kg·K))",
+              "J/(kg·K)"
+            ],
+            [
+              "m",
+              "Masse",
+              "kg"
+            ],
+            [
+              "ΔT",
+              "Temperaturänderung",
+              "K (gleich groß wie in °C)"
+            ]
+          ],
+          "umstellungen": [
+            "m = Q : (c·ΔT)",
+            "ΔT = Q : (c·m)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atomphysik",
+      "titel": "Radioaktivität",
+      "fach": "physik",
+      "klasse": "10",
+      "formeln": [
+        {
+          "id": "halbwertszeit",
+          "name": "Zerfallsgesetz",
+          "formel": "N = N₀·(½)^(t : T½)",
+          "groessen": [
+            [
+              "N",
+              "Anzahl nicht zerfallener Kerne",
+              "–"
+            ],
+            [
+              "N₀",
+              "Anzahl am Anfang",
+              "–"
+            ],
+            [
+              "t",
+              "vergangene Zeit",
+              "s, d, a"
+            ],
+            [
+              "T½",
+              "Halbwertszeit",
+              "s, d, a"
+            ]
+          ],
+          "hinweis": "Nach jeder Halbwertszeit ist noch die Hälfte übrig."
+        },
+        {
+          "id": "aktivitaet",
+          "name": "Aktivität",
+          "formel": "A = ΔN : Δt",
+          "groessen": [
+            [
+              "A",
+              "Aktivität",
+              "Bq (Becquerel) = 1/s"
+            ],
+            [
+              "ΔN",
+              "Anzahl Zerfälle",
+              "–"
+            ],
+            [
+              "Δt",
+              "Zeitspanne",
+              "s"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "thema",
+  "id": "physik.elektrische-leistung",
+  "version": "1.0",
+  "fach": "physik",
+  "titel": "Elektrische Leistung und Energie",
+  "stufe": "Realschule Bayern · 9. Klasse",
+  "ueberblick": {
+    "aufgabe": "Bei Rechenaufgaben zu Leistung und Energie gehst du immer gleich vor: Gegeben und gesucht notieren, passende Formel suchen, nach der gesuchten Größe umstellen, mit Einheiten einsetzen, ausrechnen und einen Antwortsatz schreiben.",
+    "ausgangslage": "Ein Wasserkocher ist an 230 V angeschlossen und hat eine Leistung von 2000 W.",
+    "auftrag": "Berechne die Stromstärke.",
+    "ueberschrift": "Musterlösung",
+    "muster": "<p><b>Gegeben:</b> U = 230 V; P = 2000 W<br><b>Gesucht:</b> I</p><p><b>Formel:</b> P = U·I &nbsp;| : U<br>I = P : U</p><p><b>Einsetzen:</b> I = 2000 W : 230 V<br>I ≈ 8,7 A</p><p><b>Antwort:</b> Durch den Wasserkocher fließt ein Strom von etwa 8,7 A.</p>",
+    "aufbau": [
+      [
+        "Gegeben/Gesucht",
+        "Alle Größen mit Formelzeichen, Zahl und Einheit."
+      ],
+      [
+        "Formel",
+        "Passende Formel aus der Formelsammlung."
+      ],
+      [
+        "Umstellen",
+        "Nach der gesuchten Größe auflösen."
+      ],
+      [
+        "Einsetzen",
+        "Zahlen MIT Einheiten einsetzen, ggf. vorher umrechnen."
+      ],
+      [
+        "Antwortsatz",
+        "Ganzer Satz mit Ergebnis und Einheit."
+      ]
+    ],
+    "kriterien": [
+      "Gegeben/Gesucht vollständig",
+      "Formel allgemein hingeschrieben",
+      "Richtig umgestellt",
+      "Einheiten beim Einsetzen",
+      "Sinnvoll gerundet",
+      "Antwortsatz"
+    ],
+    "erlaubt": [
+      "Formel erst einsetzen, dann umstellen (wenn die Lehrkraft es erlaubt)",
+      "Einheiten vorher umrechnen (z. B. kW → W)"
+    ],
+    "verboten": [
+      "Ergebnis ohne Einheit",
+      "Einheiten mischen (W mit kWh)",
+      "Zwischenergebnisse stark runden"
+    ]
+  },
+  "begleiter": [
+    {
+      "id": "gegeben",
+      "kurz": "Gegeben",
+      "titel": "Gegeben und gesucht",
+      "label": "Erledigt?",
+      "ziel": "Du hast alle Angaben mit Formelzeichen und Einheit notiert.",
+      "muss": [
+        "Alle Zahlen aus dem Text mit Formelzeichen notiert",
+        "Einheiten dazugeschrieben",
+        "Gesuchte Größe mit Fragezeichen notiert",
+        "Geprüft: Passen die Einheiten zusammen (z. B. kW und W)?"
+      ],
+      "wissen": "Spannung U in Volt (V), Stromstärke I in Ampere (A), Leistung P in Watt (W), Energie E in Joule (J) oder Kilowattstunden (kWh), Zeit t in Sekunden (s) oder Stunden (h).",
+      "hinweise": [
+        "Unterstreiche im Text alle Zahlen mit Einheit.",
+        "Die Einheit verrät die Größe: V → U, W → P, A → I, h → t.",
+        "Steht „Leistung von 2 kW“ da, notierst du P = 2 kW = 2000 W."
+      ],
+      "frage": {
+        "frage": "Welches Formelzeichen gehört zu „230 V“?",
+        "optionen": [
+          "P",
+          "U",
+          "I"
+        ],
+        "richtig": 1,
+        "warum": "Volt ist die Einheit der Spannung U."
+      },
+      "pruefung": "einheit"
+    },
+    {
+      "id": "formel",
+      "kurz": "Formel",
+      "titel": "Formel suchen und umstellen",
+      "ziel": "Die Formel ist nach der gesuchten Größe aufgelöst.",
+      "muss": [
+        "Formel mit allen gegebenen und der gesuchten Größe gefunden",
+        "Formel zuerst allgemein hingeschrieben",
+        "Nach der gesuchten Größe umgestellt"
+      ],
+      "fehler": [
+        "Beim Umstellen malgenommen statt geteilt"
+      ],
+      "hinweise": [
+        "Gesucht ist I, gegeben sind U und P. Welche Formel enthält genau diese drei Größen?",
+        "P = U·I. Die Formelsammlung zeigt die Umstellungen.",
+        "Teile beide Seiten durch U: I = P : U."
+      ],
+      "pruefung": "aequivalenz"
+    },
+    {
+      "id": "rechnen",
+      "kurz": "Rechnen",
+      "titel": "Einsetzen und ausrechnen",
+      "ziel": "Du hast das Ergebnis mit Einheit.",
+      "muss": [
+        "Zahlen mit Einheiten eingesetzt",
+        "Ergebnis sinnvoll gerundet (meist 2–3 gültige Ziffern)",
+        "Einheit beim Ergebnis"
+      ],
+      "fehler": [
+        "Einheit vergessen",
+        "kW und W gemischt"
+      ],
+      "hinweise": [
+        "Setze erst ein, dann tippe in den Taschenrechner.",
+        "W : V ergibt A.",
+        "2000 : 230 ≈ 8,7"
+      ],
+      "pruefung": "einheit",
+      "mitrechnen": {
+        "art": "physik",
+        "gegeben": [
+          {
+            "zeichen": "U",
+            "name": "Spannung",
+            "wert": "230",
+            "einheit": "V"
+          },
+          {
+            "zeichen": "P",
+            "name": "Leistung",
+            "wert": "2000",
+            "einheit": "W"
+          }
+        ],
+        "gesucht": {
+          "zeichen": "I",
+          "name": "Stromstärke",
+          "einheit": "A"
+        },
+        "formel": "elektrische-leistung",
+        "ergebnis": {
+          "zeichen": "I",
+          "wert": "8,7",
+          "einheit": "A",
+          "toleranz": 0.02
+        },
+        "tipps": [
+          "Gesucht ist I. Stelle P = U·I nach I um.",
+          "I = P : U",
+          "2000 W : 230 V"
+        ]
+      }
+    },
+    {
+      "id": "antwort",
+      "kurz": "Antwort",
+      "titel": "Antwortsatz",
+      "label": "Erledigt?",
+      "ziel": "Deine Lösung endet mit einem vollständigen Satz.",
+      "muss": [
+        "Antwortsatz geschrieben",
+        "Ergebnis mit Einheit im Satz",
+        "Satz passt zur Frage im Text"
+      ],
+      "vorher": "I = 8,7",
+      "nachher": "Durch den Wasserkocher fließt ein Strom von etwa 8,7 A.",
+      "vnLabel": [
+        "So nicht",
+        "So schon"
+      ]
+    }
+  ],
+  "uebungen": {
+    "einstieg": [
+      {
+        "typ": "auswahl",
+        "frage": "In welcher Einheit misst man die elektrische Leistung?",
+        "optionen": [
+          "Volt",
+          "Watt",
+          "Ampere"
+        ],
+        "richtig": 1,
+        "warum": "Leistung P in Watt (W). Volt ist Spannung, Ampere Stromstärke."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Wie viel Joule sind 1 kWh?",
+        "optionen": [
+          "1000 J",
+          "3600 J",
+          "3 600 000 J"
+        ],
+        "richtig": 2,
+        "warum": "1 kWh = 1000 W · 3600 s = 3 600 000 Ws = 3 600 000 J."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welche Umstellung von P = U·I ist richtig?",
+        "optionen": [
+          "U = P·I",
+          "U = P : I",
+          "U = I : P"
+        ],
+        "richtig": 1,
+        "warum": "Beide Seiten durch I teilen: U = P : I."
+      }
+    ],
+    "sicher": [
+      {
+        "typ": "rechenaufgabe",
+        "aufgabe": "Ein Föhn hat 1,8 kW und läuft an 230 V. Berechne die Stromstärke.",
+        "tipp": "Rechne zuerst 1,8 kW in W um. I = P : U.",
+        "loesung": "<p>Gegeben: P = 1,8 kW = 1800 W; U = 230 V. Gesucht: I</p><p>I = P : U = 1800 W : 230 V ≈ 7,8 A</p><p>Antwort: Durch den Föhn fließen etwa 7,8 A.</p>",
+        "ergebnis": "I ≈ 7,8 A"
+      },
+      {
+        "typ": "rechenaufgabe",
+        "aufgabe": "Eine LED-Lampe (8 W) brennt 5 Stunden. Wie viel Energie braucht sie in kWh?",
+        "tipp": "E = P·t. Rechne W in kW um.",
+        "loesung": "<p>E = P·t = 0,008 kW · 5 h = 0,04 kWh</p><p>Antwort: Die Lampe braucht 0,04 kWh.</p>",
+        "ergebnis": "E = 0,04 kWh"
+      }
+    ],
+    "schulaufgabe": [
+      {
+        "typ": "rechenaufgabe",
+        "aufgabe": "Ein Backofen (3,5 kW) heizt 45 min. 1 kWh kostet 35 ct. a) Berechne die Energie in kWh. b) Berechne die Kosten.",
+        "tipp": "45 min = 0,75 h. E = P·t, Kosten = E·Preis.",
+        "loesung": "<p>a) E = P·t = 3,5 kW · 0,75 h = 2,625 kWh ≈ 2,6 kWh</p><p>b) Kosten = 2,625 kWh · 35 ct/kWh ≈ 92 ct</p><p>Antwort: Der Backofen braucht etwa 2,6 kWh, das kostet etwa 92 Cent.</p>",
+        "ergebnis": "≈ 2,6 kWh; ≈ 92 ct"
+      }
+    ]
+  },
+  "merkzettel": [
+    [
+      "Leistung",
+      "P = U·I, Einheit W (Watt)."
+    ],
+    [
+      "Energie",
+      "E = P·t, Einheit J (= W·s) oder kWh."
+    ],
+    [
+      "Umrechnen",
+      "1 kW = 1000 W; 1 h = 3600 s; 1 kWh = 3,6 MJ."
+    ],
+    [
+      "Kosten",
+      "Kosten = E (in kWh) · Preis pro kWh."
+    ],
+    [
+      "Schema",
+      "Gegeben/Gesucht → Formel → Umstellen → Einsetzen mit Einheit → Antwortsatz."
+    ],
+    [
+      "Runden",
+      "Am Ende auf 2–3 gültige Ziffern, Zwischenergebnisse nicht runden."
+    ]
+  ]
+}
