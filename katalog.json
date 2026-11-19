@@ -1,0 +1,38 @@
+{
+  "format": "lernen-katalog/1",
+  "pakete": [
+    {
+      "id": "deutsch.schilderung-schreiben",
+      "typ": "thema",
+      "fach": "deutsch",
+      "titel": "Eine Schilderung schreiben",
+      "stufe": "Realschule Bayern · 9. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/deutsch/deutsch-schilderung-schreiben.json",
+      "groesse": 27683,
+      "geaendert": "2026-11-19T20:50:20+00:00"
+    },
+    {
+      "id": "deutsch.schilderung-ueberarbeiten",
+      "typ": "thema",
+      "fach": "deutsch",
+      "titel": "Eine Schilderung überarbeiten",
+      "stufe": "Realschule Bayern · 9. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/deutsch/deutsch-schilderung-ueberarbeiten.json",
+      "groesse": 28080,
+      "geaendert": "2026-11-19T20:50:20+00:00"
+    },
+    {
+      "id": "deutsch.ah-s31-klassensprecherfahrt",
+      "typ": "arbeitsheft",
+      "fach": "deutsch",
+      "titel": "Schilderung: Abend am See (AH S. 31)",
+      "stufe": "Realschule Bayern · 9. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/deutsch/deutsch-arbeitsheft-s31-klassensprecherfahrt.json",
+      "groesse": 26064,
+      "geaendert": "2026-11-19T20:50:20+00:00"
+    }
+  ]
+}

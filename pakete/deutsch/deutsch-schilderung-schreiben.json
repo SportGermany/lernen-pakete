@@ -1,0 +1,709 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "thema",
+  "id": "deutsch.schilderung-schreiben",
+  "version": "1.0",
+  "fach": "deutsch",
+  "titel": "Eine Schilderung schreiben",
+  "stufe": "Realschule Bayern · 9. Klasse",
+  "ueberblick": {
+    "aufgabe": "Du schreibst zu einer Szene, zum Beispiel aus einem Jugendbuch, eine Schilderung. Dabei erzählst du nicht die ganze Geschichte nach. Du nimmst einen einzigen spannenden Moment und lässt den Leser ihn so miterleben, als wäre er selbst dabei: mit Sinneseindrücken, Gefühlen und Gedanken der Figur. Die Handlung muss zum Buch passen.",
+    "ausgangslage": "Im Jugendbuch „Lampenfieber“ (für diese Übung erfunden) spielt Nina die Hauptrolle im Schultheater. Bei der Premiere tritt sie auf die Bühne, sieht ihre Mutter in der ersten Reihe und vergisst plötzlich ihren ersten Satz. Ihr Freund Can flüstert ihr aus der Kulisse das Stichwort zu. Nina spricht weiter, und am Ende klatscht das Publikum.",
+    "auftrag": "Schildere die Szene, in der Nina ihren Text vergisst, aus Ninas Sicht (Ich-Form). Finde eine passende Überschrift.",
+    "ueberschrift": "Drei Sekunden Stille",
+    "muster": "<p><span class=\"ms\">Das Scheinwerferlicht blendet mich.</span> Hinter mir <span class=\"ms\">rascheln die Kulissen</span>, irgendwo <span class=\"ms\">hüstelt jemand</span>. Ich mache drei Schritte nach vorn, genau bis zur weißen Markierung.</p>\n<p>In der ersten Reihe sitzt Mama. Sie <span class=\"mw\">lächelt mir zu</span> und hebt den Daumen. Ich öffne den Mund – und nichts. <span class=\"mg\">Mein Kopf ist leer. Vollkommen leer.</span></p>\n<p><span class=\"mg\">Hitze schießt mir in die Wangen. Meine Hände kleben am Kostüm.</span> <span class=\"mz\">Eine Sekunde. Zwei. Drei.</span> <span class=\"ms\">Im Saal ist es so still, dass ich das Summen der Lampen höre.</span> <span class=\"mg\">Wie ging der Satz? Warum ausgerechnet jetzt?</span> <span class=\"mw\">Hunderte Augen bohren sich in mich.</span></p>\n<p>Da – <span class=\"ms\">ein Wispern aus der Kulisse</span>. „Der Brief …“, <span class=\"mw\">zischt</span> Can. <span class=\"mz\">Der Brief. Natürlich.</span> <span class=\"mw\">Die Worte purzeln zurück in meinen Kopf</span>, und ich höre mich sprechen, erst leise, dann immer fester.</p>\n<p>Als der Vorhang fällt, <span class=\"mw\">bricht der Applaus los wie ein Gewitter</span>. <span class=\"mg\">Meine Knie zittern noch, aber ich grinse.</span></p>",
+    "aufbau": [
+      [
+        "Einleitung",
+        "Kurz hinein in die Situation: Ort, Stimmung, ein erster Sinneseindruck. 2 bis 4 Sätze, keine Vorgeschichte."
+      ],
+      [
+        "Hauptteil",
+        "Die Spannung steigt. Der Höhepunkt wird in Zeitlupe erzählt, mit Sinnen, Gefühlen und Gedanken. Das ist der längste Teil."
+      ],
+      [
+        "Schluss",
+        "Die Spannung löst sich. 1 bis 3 Sätze mit einem Gefühl, das nachklingt."
+      ]
+    ],
+    "kriterien": [
+      "Durchgehend Präsens",
+      "Perspektive wie in der Aufgabe (Ich- oder Er/Sie-Form)",
+      "Passt zur Buchvorlage: Figuren, Handlung, Charakter",
+      "Ein Moment, keine ganze Geschichte",
+      "Höhepunkt gedehnt (Zeitlupe)",
+      "Sinneseindrücke, Gefühle und Gedanken",
+      "Treffende Wortwahl, sprachliche Bilder",
+      "Abwechslungsreicher Satzbau",
+      "Passende, neugierig machende Überschrift"
+    ],
+    "erlaubt": [
+      "Sinneseindrücke, die zur Szene passen",
+      "Gefühle und Gedanken der Figur",
+      "Wörtliche Rede",
+      "Kleine Details ausmalen (Licht, Geräusche, Kleidung)"
+    ],
+    "verboten": [
+      "Handlung, die dem Buch widerspricht",
+      "Die ganze Geschichte nacherzählen",
+      "Inhaltsangabe-Sätze („In dem Buch geht es um …“)",
+      "Bewertungen oder eine Moral am Ende",
+      "Die Perspektive wechseln"
+    ]
+  },
+  "begleiter": [
+    {
+      "id": "aufgabe",
+      "kurz": "Aufgabe",
+      "titel": "Aufgabe verstehen",
+      "ziel": "Du weißt genau, welchen Moment du aus wessen Sicht schilderst.",
+      "muss": [
+        "Aufgabe genau gelesen und Schlüsselwörter unterstrichen",
+        "Geklärt: Welche Szene genau? Wo beginnt und wo endet sie?",
+        "Perspektive notiert: Ich-Form oder Er/Sie-Form? Aus wessen Sicht?",
+        "Zeitform geklärt (Standard: Präsens)",
+        "Notiert: Welches Hauptgefühl hat die Figur in dieser Szene?"
+      ],
+      "fehler": [
+        "Die ganze Geschichte schildern statt nur einen Moment",
+        "Aus der falschen Figur heraus schreiben"
+      ],
+      "hilfen": [
+        {
+          "t": "Fragen an die Aufgabe",
+          "items": [
+            "Wer erlebt die Szene?",
+            "Wo und wann spielt sie?",
+            "Was ist der spannendste Augenblick?",
+            "Wie fühlt sich die Figur am Anfang und wie am Ende?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "szene",
+      "kurz": "Szene",
+      "titel": "Szene erfassen",
+      "ziel": "Du kennst die Handlung der Szene genau, damit nichts dem Buch widerspricht.",
+      "muss": [
+        "Die Textstelle im Buch (oder die Ausgangslage) nochmal gelesen",
+        "Handlungsschritte in Stichpunkten notiert (3 bis 6 Punkte)",
+        "Höhepunkt markiert: der Moment mit der größten Spannung",
+        "Notiert, was du über die Figur weißt (Charakter, Beziehungen, Sorgen)",
+        "Ort, Zeit und beteiligte Figuren festgehalten"
+      ],
+      "fehler": [
+        "Dinge erfinden, die im Buch anders sind",
+        "Den Charakter der Figur verändern (eine schüchterne Figur wird plötzlich cool)"
+      ],
+      "vorher": "Nina betritt die Bühne. Sie vergisst ihren Text. Can hilft ihr. Applaus.",
+      "nachher": "1 · Nina tritt ins Licht<br>2 · sieht Mama in Reihe 1<br>3 · <b>Kopf leer, Stille (Höhepunkt)</b><br>4 · Can flüstert „Der Brief“<br>5 · sie spricht weiter<br>6 · Vorhang, Applaus",
+      "vnLabel": [
+        "Zu grob",
+        "Gute Stichpunkte"
+      ]
+    },
+    {
+      "id": "planen",
+      "kurz": "Planen",
+      "titel": "Schreibplan",
+      "ziel": "Zu jedem Handlungsschritt hast du Material, bevor du schreibst.",
+      "muss": [
+        "Schreibplan-Tabelle angelegt: Handlung | Sinne | Gefühle | Gedanken",
+        "Zu jedem Schritt mindestens einen Sinneseindruck gesammelt",
+        "Gefühle in Körpersignale übersetzt (Angst → Hände kleben …)",
+        "Mindestens zwei Gedanken der Figur als Frage oder Ausruf notiert",
+        "Entschieden, wo du die Zeit dehnst (Zeitlupe am Höhepunkt)",
+        "Eine erste Idee für die Überschrift notiert"
+      ],
+      "fehler": [
+        "Ohne Plan losschreiben. Dann wird der Hauptteil zu kurz und der Anfang zu lang"
+      ],
+      "hilfen": [
+        {
+          "t": "Schreibplan-Tabelle (Beispiel)",
+          "items": [
+            "Handlung: Kopf ist leer",
+            "Sinne: Summen der Lampen, Stille, Licht blendet",
+            "Gefühle: Hitze in den Wangen, Hände kleben",
+            "Gedanken: „Wie ging der Satz?“ „Warum jetzt?“"
+          ]
+        },
+        {
+          "t": "Sinne-Checkliste",
+          "items": [
+            "Sehen: Licht, Farben, Bewegungen",
+            "Hören: Geräusche, Stimmen, Stille",
+            "Riechen: Gerüche der Umgebung",
+            "Fühlen: Temperatur, Oberflächen, Schmerz",
+            "Schmecken: z. B. trockener Mund bei Angst"
+          ]
+        }
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "einleitung",
+      "kurz": "Einleitung",
+      "titel": "Einleitung schreiben",
+      "ziel": "Der Leser ist sofort mitten in der Situation.",
+      "muss": [
+        "Durchgehend Präsens",
+        "Ort und Situation anschaulich, mit mindestens einem Sinneseindruck",
+        "Stimmung angedeutet, aber noch nicht alles verraten",
+        "Richtige Perspektive (wie in der Aufgabe)",
+        "Kurz: 2 bis 4 Sätze"
+      ],
+      "fehler": [
+        "Vorgeschichte erzählen („Seit Wochen proben wir …“)",
+        "Inhaltsangabe-Einstieg („In dem Buch Lampenfieber geht es um …“)"
+      ],
+      "hilfen": [
+        {
+          "t": "Gute Einstiege",
+          "items": [
+            "Mit einem Sinneseindruck: „Das Scheinwerferlicht blendet mich.“",
+            "Mit einem Geräusch: „Hinter mir rascheln die Kulissen.“",
+            "Mit einem Gedanken: „Jetzt bloß nicht stolpern.“",
+            "Mit wörtlicher Rede: „Toi, toi, toi“, flüstert Can."
+          ]
+        }
+      ],
+      "vorher": "Heute war die Premiere von unserem Theaterstück. Ich war sehr aufgeregt und bin auf die Bühne gegangen.",
+      "nachher": "Das Scheinwerferlicht blendet mich. Hinter mir rascheln die Kulissen, irgendwo hüstelt jemand. Ich mache drei Schritte nach vorn.",
+      "vnLabel": [
+        "So nicht",
+        "So schon"
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "hauptteil",
+      "kurz": "Hauptteil",
+      "titel": "Hauptteil & Höhepunkt",
+      "ziel": "Der Leser erlebt den Höhepunkt in Zeitlupe mit.",
+      "muss": [
+        "Spannung baut sich Schritt für Schritt auf",
+        "Höhepunkt gedehnt: Handlung in kleine Schritte zerlegt (Zeitlupe)",
+        "Mindestens drei verschiedene Sinneseindrücke",
+        "Gefühle über den Körper gezeigt statt benannt",
+        "Gedanken der Figur als Frage, Ausruf oder innerer Monolog",
+        "Treffende Verben statt „gehen, machen, sagen, sein“",
+        "Mindestens ein sprachliches Bild (Vergleich, Metapher, Personifikation)",
+        "Kurze Sätze oder Ellipsen am spannendsten Punkt"
+      ],
+      "fehler": [
+        "Den Höhepunkt in einem Satz abhandeln",
+        "Ins Präteritum rutschen",
+        "„Dann … dann … dann …“",
+        "Zu viele Bilder auf einmal. Dann wirkt der Text übertrieben"
+      ],
+      "hilfen": [
+        {
+          "t": "Satzanfänge statt „dann“",
+          "items": [
+            "Plötzlich …",
+            "Im selben Moment …",
+            "Kaum …, da …",
+            "Mit einem Mal …",
+            "Langsam …",
+            "Noch bevor …"
+          ]
+        },
+        {
+          "t": "Sprachliche Bilder",
+          "items": [
+            "Vergleich: „wie ein Gewitter“",
+            "Personifikation: „die Worte purzeln zurück“",
+            "Metapher: „ein Meer aus Gesichtern“",
+            "Ellipse: „Eine Sekunde. Zwei. Drei.“",
+            "Rhetorische Frage: „Warum ausgerechnet jetzt?“"
+          ]
+        }
+      ],
+      "vorher": "Dann habe ich meinen Text vergessen. Ich hatte voll Angst. Dann hat Can mir geholfen.",
+      "nachher": "Ich öffne den Mund – und nichts. Hitze schießt mir in die Wangen. Eine Sekunde. Zwei. Drei. Wie ging der Satz? Da – ein Wispern aus der Kulisse.",
+      "vnLabel": [
+        "So nicht",
+        "So schon"
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "schluss",
+      "kurz": "Schluss",
+      "titel": "Schluss schreiben",
+      "ziel": "Die Spannung löst sich, und ein Gefühl klingt nach.",
+      "muss": [
+        "Spannung löst sich spürbar (Erleichterung, Stolz, Enttäuschung …)",
+        "Gefühl gezeigt, nicht nur benannt",
+        "Kurz: 1 bis 3 Sätze",
+        "Keine Moral, keine Zusammenfassung",
+        "Passt zum Ende der Szene im Buch"
+      ],
+      "fehler": [
+        "Weitererzählen, was danach passiert („Danach sind wir Pizza essen gegangen.“)",
+        "Nur „Es war ein toller Tag.“"
+      ],
+      "vorher": "Am Ende haben alle geklatscht und ich war froh. Es war ein schöner Abend.",
+      "nachher": "Als der Vorhang fällt, bricht der Applaus los wie ein Gewitter. Meine Knie zittern noch, aber ich grinse.",
+      "vnLabel": [
+        "So nicht",
+        "So schon"
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "pruefen",
+      "kurz": "Überschrift & Prüfen",
+      "titel": "Überschrift & Endkontrolle",
+      "ziel": "Dein Text hat eine passende Überschrift und stimmt sprachlich und formal.",
+      "muss": [
+        "Überschrift macht neugierig, verrät aber nicht das Ende",
+        "Ganzen Text einmal nur auf die Zeitform gelesen: überall Präsens?",
+        "Perspektive durchgehend gleich",
+        "Nichts widerspricht dem Buch",
+        "Keine Wortwiederholungen in aufeinanderfolgenden Sätzen",
+        "Wörtliche Rede richtig gesetzt",
+        "Rechtschreibung geprüft (Großschreibung, das/dass)",
+        "Absätze für Einleitung, Hauptteil und Schluss"
+      ],
+      "fehler": [
+        "Überschrift verrät alles („Wie Nina ihren Text vergaß und Can half“)",
+        "Keine Zeit für die Kontrolle. Rechne 5 bis 10 Minuten ein"
+      ],
+      "hilfen": [
+        {
+          "t": "Ideen für Überschriften",
+          "items": [
+            "Ein Detail aus dem Höhepunkt: „Drei Sekunden Stille“",
+            "Ein Gedanke der Figur: „Warum ausgerechnet jetzt?“",
+            "Ein Bild: „Im grellen Licht“"
+          ]
+        },
+        {
+          "t": "Zeichensetzung bei wörtlicher Rede",
+          "items": [
+            "Er sagt: „Komm her.“",
+            "„Komm her“, sagt er.",
+            "„Komm her!“, ruft er.",
+            "„Kommst du?“, fragt er.",
+            "„Komm“, sagt er, „sonst verpasst du es.“"
+          ]
+        }
+      ],
+      "vorher": "Mein Auftritt",
+      "nachher": "Drei Sekunden Stille",
+      "vnLabel": [
+        "Langweilig",
+        "Macht neugierig"
+      ]
+    }
+  ],
+  "uebungen": {
+    "einstieg": [
+      {
+        "typ": "auswahl",
+        "frage": "In welcher Zeitform schreibst du eine Schilderung normalerweise?",
+        "optionen": [
+          "Präteritum",
+          "Präsens",
+          "Perfekt"
+        ],
+        "richtig": 1,
+        "warum": "Das Präsens holt den Leser ins Geschehen, als passiere alles gerade jetzt. Gibt die Aufgabe etwas anderes vor, gilt die Aufgabe."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Was unterscheidet eine Schilderung von einer Erzählung?",
+        "optionen": [
+          "Eine Schilderung ist kürzer",
+          "Eine Schilderung lässt einen einzigen Moment intensiv miterleben",
+          "Eine Schilderung hat kein Ende"
+        ],
+        "richtig": 1,
+        "warum": "Die Erzählung erzählt einen Handlungsverlauf. Die Schilderung hält einen Moment an und füllt ihn mit Sinnen, Gefühlen und Gedanken."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satz zeigt ein Gefühl, statt es nur zu benennen?",
+        "optionen": [
+          "Ich bin sehr nervös.",
+          "Meine Hände kleben am Kostüm.",
+          "Ich habe Lampenfieber."
+        ],
+        "richtig": 1,
+        "warum": "Der Leser erkennt die Nervosität selbst, und zwar am Körpersignal."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satz gehört NICHT in eine Schilderung?",
+        "optionen": [
+          "Das Licht blendet mich.",
+          "In dem Buch geht es um ein Mädchen, das Theater spielt.",
+          "Wie ging der Satz nochmal?"
+        ],
+        "richtig": 1,
+        "warum": "Das ist ein Inhaltsangabe-Satz. Er erklärt das Buch, statt die Szene erleben zu lassen."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Wo dehnst du die Zeit am stärksten?",
+        "optionen": [
+          "In der Einleitung",
+          "Am Höhepunkt",
+          "Im Schluss"
+        ],
+        "richtig": 1,
+        "warum": "Am Höhepunkt zerlegst du die Handlung in kleine Schritte, wie in Zeitlupe."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welche Überschrift ist am besten?",
+        "optionen": [
+          "Ninas Auftritt",
+          "Drei Sekunden Stille",
+          "Wie Nina ihren Text vergaß und Can ihr half"
+        ],
+        "richtig": 1,
+        "warum": "Sie macht neugierig und greift ein Detail auf, ohne das Ende zu verraten. Die erste ist langweilig, die dritte verrät alles."
+      }
+    ],
+    "sicher": [
+      {
+        "typ": "tippen",
+        "frage": "Tippe alle Sätze an, die einen Sinneseindruck enthalten.",
+        "tokens": [
+          [
+            "Das Licht blendet.",
+            1
+          ],
+          [
+            "Ich gehe nach vorn.",
+            0
+          ],
+          [
+            "Es riecht nach Staub und Schminke.",
+            1
+          ],
+          [
+            "Jemand hustet.",
+            1
+          ],
+          [
+            "Ich bin aufgeregt.",
+            0
+          ],
+          [
+            "Der Vorhang ist rau unter meinen Fingern.",
+            1
+          ]
+        ],
+        "warum": "Sehen (Licht), riechen (Staub, Schminke), hören (hustet), fühlen (rau). „Ich gehe nach vorn“ ist reine Handlung, „Ich bin aufgeregt“ benennt ein Gefühl."
+      },
+      {
+        "typ": "tippen",
+        "frage": "Tippe alle Sätze an, die ein Gefühl nur benennen.",
+        "tokens": [
+          [
+            "Ich habe Angst.",
+            1
+          ],
+          [
+            "Meine Knie zittern.",
+            0
+          ],
+          [
+            "Ich bin total nervös.",
+            1
+          ],
+          [
+            "Hitze schießt mir in die Wangen.",
+            0
+          ],
+          [
+            "Ich bin glücklich.",
+            1
+          ]
+        ],
+        "warum": "„Angst“, „nervös“ und „glücklich“ werden nur genannt. Die anderen Sätze zeigen das Gefühl über den Körper."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Mach aus dem Stichpunkt zwei schildernde Sätze.",
+        "satz": "Nina betritt die Bühne.",
+        "tipp": "Präsens · Ich-Form · ein Sinneseindruck · treffendes Verb",
+        "loesung": "Mit wackligen Beinen trete ich ins Scheinwerferlicht. Es ist so grell, dass ich die Gesichter im Saal kaum erkenne."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Baue Gefühle und Gedanken ein.",
+        "satz": "Nina vergisst ihren Text.",
+        "tipp": "Körpersignal · Gedanke als Frage · kurze Sätze",
+        "loesung": "Ich öffne den Mund – nichts. Mein Hals ist wie zugeschnürt. Wie ging der Satz? Warum ausgerechnet jetzt?"
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Schreib die Stelle in Zeitlupe.",
+        "satz": "Can sagt ihr das Stichwort und sie spricht weiter.",
+        "tipp": "Geräusch · treffendes Redeverb · Ellipse · Gedanke",
+        "loesung": "Da – ein Wispern aus der Kulisse. „Der Brief …“, zischt Can. Der Brief. Natürlich. Die Worte purzeln zurück in meinen Kopf."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Schreib einen besseren Schluss.",
+        "satz": "Am Ende klatschen alle und Nina ist froh.",
+        "tipp": "Spannung löst sich · Gefühl zeigen · kurz",
+        "loesung": "Als der Vorhang fällt, bricht der Applaus los. Meine Knie zittern noch, aber ich grinse."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satz enthält einen Vergleich?",
+        "optionen": [
+          "Die Worte purzeln zurück in meinen Kopf.",
+          "Der Applaus bricht los wie ein Gewitter.",
+          "Eine Sekunde. Zwei. Drei."
+        ],
+        "richtig": 1,
+        "warum": "„wie ein Gewitter“ ist ein Vergleich. Satz 1 ist eine Personifikation, Satz 3 eine Ellipse."
+      }
+    ],
+    "schulaufgabe": [
+      {
+        "typ": "text",
+        "titel": "Lampenfieber (Ich-Form)",
+        "vlabel": "AUSGANGSLAGE",
+        "auftrag": "Schildere die Szene, in der Nina ihren Text vergisst, aus Ninas Sicht (Ich-Form). Finde eine passende Überschrift.",
+        "vorlage": "Im Jugendbuch „Lampenfieber“ (für diese Übung erfunden) spielt Nina die Hauptrolle im Schultheater. Bei der Premiere tritt sie auf die Bühne, sieht ihre Mutter in der ersten Reihe und vergisst plötzlich ihren ersten Satz. Ihr Freund Can flüstert ihr aus der Kulisse das Stichwort zu. Nina spricht weiter, und am Ende klatscht das Publikum.",
+        "loesung": "<p><b>Drei Sekunden Stille</b></p><p><span class=\"ms\">Das Scheinwerferlicht blendet mich.</span> Hinter mir <span class=\"ms\">rascheln die Kulissen</span>, irgendwo <span class=\"ms\">hüstelt jemand</span>. Ich mache drei Schritte nach vorn, genau bis zur weißen Markierung.</p>\n<p>In der ersten Reihe sitzt Mama. Sie <span class=\"mw\">lächelt mir zu</span> und hebt den Daumen. Ich öffne den Mund – und nichts. <span class=\"mg\">Mein Kopf ist leer. Vollkommen leer.</span></p>\n<p><span class=\"mg\">Hitze schießt mir in die Wangen. Meine Hände kleben am Kostüm.</span> <span class=\"mz\">Eine Sekunde. Zwei. Drei.</span> <span class=\"ms\">Im Saal ist es so still, dass ich das Summen der Lampen höre.</span> <span class=\"mg\">Wie ging der Satz? Warum ausgerechnet jetzt?</span> <span class=\"mw\">Hunderte Augen bohren sich in mich.</span></p>\n<p>Da – <span class=\"ms\">ein Wispern aus der Kulisse</span>. „Der Brief …“, <span class=\"mw\">zischt</span> Can. <span class=\"mz\">Der Brief. Natürlich.</span> <span class=\"mw\">Die Worte purzeln zurück in meinen Kopf</span>, und ich höre mich sprechen, erst leise, dann immer fester.</p>\n<p>Als der Vorhang fällt, <span class=\"mw\">bricht der Applaus los wie ein Gewitter</span>. <span class=\"mg\">Meine Knie zittern noch, aber ich grinse.</span></p>"
+      },
+      {
+        "typ": "text",
+        "titel": "Funkloch (Er-Form)",
+        "vlabel": "AUSGANGSLAGE",
+        "auftrag": "Schildere den Moment, in dem Tarik merkt, dass er allein ist, bis er die Stimmen seiner Klasse hört. Schreibe in der Er-Form und im Präsens. Finde eine passende Überschrift.",
+        "vorlage": "Im Jugendbuch „Funkloch“ (für diese Übung erfunden) verliert Tarik bei einer Klassenwanderung im dichten Nebel den Anschluss. Er ruft nach den anderen, bekommt keine Antwort und hat kein Netz. Schließlich entdeckt er eine Wegmarkierung an einem Baum, folgt ihr und hört die Stimmen seiner Klasse.",
+        "loesung": "<p><b>Grau</b></p>\n<p>Der Nebel hängt so dicht zwischen den Fichten, dass Tarik kaum die eigenen Schuhe sieht. Eben waren die anderen doch noch direkt vor ihm.</p>\n<p>„Hallo?“ Seine Stimme klingt dünn, als würde der Nebel sie verschlucken. Keine Antwort. Nur das Tropfen von den Ästen.</p>\n<p>Er reißt das Handy aus der Tasche. Kein Netz. Sein Magen zieht sich zusammen. Wie lange ist er schon allein? Warum hat keiner gemerkt, dass er fehlt?</p>\n<p>Feuchte Kälte kriecht ihm unter die Jacke. Er dreht sich einmal um sich selbst. Überall nur graue Stämme. Sein Atem geht schneller. Ein Ast knackt. Tarik zuckt zusammen.</p>\n<p>Da – am nächsten Baum leuchtet etwas. Ein rot-weißer Streifen. Eine Wegmarkierung! Tarik stolpert darauf zu, dann zur nächsten und zur nächsten.</p>\n<p>Plötzlich dringt ein Lachen durch den Nebel. Dann ein zweites. Tarik bleibt stehen und atmet tief aus. Die Anspannung rinnt aus ihm heraus wie Wasser.</p>"
+      }
+    ]
+  },
+  "raster": [
+    "Präsens durchgehend",
+    "Richtige Perspektive",
+    "Passt zur Buchvorlage",
+    "Ein Moment, keine ganze Geschichte",
+    "Höhepunkt gedehnt",
+    "Mindestens 3 Sinneseindrücke",
+    "Gefühle gezeigt statt benannt",
+    "Gedanken der Figur eingebaut",
+    "Treffende Wortwahl, keine Wiederholungen",
+    "Satzbau abwechslungsreich",
+    "Einleitung, Hauptteil, Schluss erkennbar",
+    "Passende Überschrift"
+  ],
+  "merkzettel": [
+    [
+      "Ziel",
+      "Einen einzigen Moment so beschreiben, dass der Leser ihn miterlebt."
+    ],
+    [
+      "Zeitform",
+      "Präsens, das ist der Standard bei der Schilderung. Gibt die Aufgabe oder deine Lehrkraft etwas anderes vor, gilt das."
+    ],
+    [
+      "Perspektive",
+      "Wie in der Aufgabe (Ich- oder Er/Sie-Form) und durchgehend gleich."
+    ],
+    [
+      "Buchvorlage",
+      "Figuren, Handlung und Charakter müssen zum Buch passen."
+    ],
+    [
+      "Aufbau",
+      "Einleitung kurz, Hauptteil lang mit Höhepunkt, Schluss kurz."
+    ],
+    [
+      "Sinne",
+      "Sehen, hören, riechen, fühlen, schmecken."
+    ],
+    [
+      "Gefühle",
+      "Zeigen statt benennen, und zwar über den Körper."
+    ],
+    [
+      "Gedanken",
+      "Fragen, Ausrufe, innerer Monolog."
+    ],
+    [
+      "Zeitlupe",
+      "Den Höhepunkt in kleine Schritte zerlegen."
+    ],
+    [
+      "Sprache",
+      "Treffende Verben, Vergleiche, Personifikationen, Ellipsen."
+    ],
+    [
+      "Überschrift",
+      "Macht neugierig, verrät nicht das Ende."
+    ],
+    [
+      "Tabu",
+      "Nacherzählen, Inhaltsangabe-Sätze, „dann“-Ketten, Umgangssprache, Moral."
+    ]
+  ],
+  "wortkiste": [
+    {
+      "g": "Statt „gehen“",
+      "i": [
+        "schleichen",
+        "stapfen",
+        "tappen",
+        "hasten",
+        "stolpern",
+        "sich schleppen",
+        "treten",
+        "huschen"
+      ]
+    },
+    {
+      "g": "Statt „sagen“",
+      "i": [
+        "flüstern",
+        "murmeln",
+        "brüllen",
+        "zischen",
+        "stammeln",
+        "keuchen",
+        "rufen",
+        "wispern"
+      ]
+    },
+    {
+      "g": "Statt „sehen“",
+      "i": [
+        "starren",
+        "blinzeln",
+        "mustern",
+        "erspähen",
+        "spähen",
+        "den Blick heften auf"
+      ]
+    },
+    {
+      "g": "Angst",
+      "i": [
+        "Das Herz hämmert",
+        "Die Knie werden weich",
+        "Die Kehle ist wie zugeschnürt",
+        "Kalter Schweiß auf der Stirn",
+        "Der Magen verkrampft sich",
+        "Ein Schauer läuft über den Rücken"
+      ]
+    },
+    {
+      "g": "Nervosität",
+      "i": [
+        "Die Hände sind feucht",
+        "Ich schlucke trocken",
+        "Die Finger trommeln",
+        "Ich kaue auf der Lippe",
+        "Hitze schießt in die Wangen"
+      ]
+    },
+    {
+      "g": "Erleichterung & Freude",
+      "i": [
+        "Eine Last fällt ab",
+        "Ich atme tief aus",
+        "Ein Grinsen breitet sich aus",
+        "Das Herz macht einen Sprung"
+      ]
+    },
+    {
+      "g": "Wut",
+      "i": [
+        "Ich balle die Fäuste",
+        "Das Blut rauscht in den Ohren",
+        "Ich presse die Lippen aufeinander"
+      ]
+    },
+    {
+      "g": "Geräusche",
+      "i": [
+        "rauschen",
+        "knarzen",
+        "dröhnen",
+        "knistern",
+        "zischen",
+        "summen",
+        "Totenstille"
+      ]
+    },
+    {
+      "g": "Satzanfänge statt „dann“",
+      "i": [
+        "Plötzlich",
+        "Im selben Moment",
+        "Kaum …, da",
+        "Mit einem Mal",
+        "Langsam",
+        "Noch bevor",
+        "Auf einmal",
+        "Als …"
+      ]
+    },
+    {
+      "g": "Sprachliche Bilder",
+      "i": [
+        "Vergleich: wie ein Gewitter",
+        "Metapher: ein Meer aus Gesichtern",
+        "Personifikation: die Worte purzeln",
+        "Lautmalerei: Platsch!",
+        "Ellipse: Eine Sekunde. Zwei.",
+        "Rhetorische Frage: Warum jetzt?"
+      ]
+    }
+  ],
+  "korrektur": [
+    [
+      "T",
+      "Tempus",
+      "„Dann bin ich gegangen.“ → „Dann gehe ich.“"
+    ],
+    [
+      "A",
+      "Ausdruck",
+      "„Es war cool.“ → unpassendes Wort, Umgangssprache"
+    ],
+    [
+      "W",
+      "Wiederholung (auch Wdh)",
+      "„Dann … Dann … Dann …“"
+    ],
+    [
+      "Sb",
+      "Satzbau",
+      "Satz unvollständig oder verdreht"
+    ],
+    [
+      "Gr",
+      "Grammatik",
+      "Falscher Fall, falsche Endung"
+    ],
+    [
+      "Bz",
+      "Bezug",
+      "Unklar, worauf sich „er“ oder „das“ bezieht"
+    ],
+    [
+      "R",
+      "Rechtschreibung",
+      "„das“ statt „dass“"
+    ],
+    [
+      "Z",
+      "Zeichensetzung",
+      "Komma, Redezeichen"
+    ]
+  ]
+}

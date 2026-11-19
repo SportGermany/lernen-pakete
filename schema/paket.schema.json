@@ -1,0 +1,725 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/SportGermany/lernen-pakete/main/schema/paket.schema.json",
+  "title": "Lernen – Themenpaket (lernen-paket/2)",
+  "description": "Schema für alle Pakettypen: thema, arbeitsheft, formelsammlung. HTML in Texten nur <p>, <b>, <br>, <span class=\"ms|mg|mw|mz|tag\">.",
+  "type": "object",
+  "required": [
+    "format",
+    "typ",
+    "id",
+    "version",
+    "fach",
+    "titel",
+    "stufe"
+  ],
+  "properties": {
+    "format": {
+      "const": "lernen-paket/2"
+    },
+    "typ": {
+      "enum": [
+        "thema",
+        "arbeitsheft",
+        "formelsammlung"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+\\.[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+(\\.\\d+){0,2}$"
+    },
+    "fach": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "titel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stufe": {
+      "type": "string"
+    },
+    "ueberblick": {
+      "$ref": "#/definitions/ueberblick"
+    },
+    "begleiter": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/schritt"
+      }
+    },
+    "uebungen": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "einstieg": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/uebung"
+          }
+        },
+        "sicher": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/uebung"
+          }
+        },
+        "schulaufgabe": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/uebung"
+          }
+        }
+      }
+    },
+    "raster": {
+      "$ref": "#/definitions/texte"
+    },
+    "merkzettel": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/paar"
+      }
+    },
+    "wortkiste": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "g",
+          "i"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "g": {
+            "type": "string",
+            "minLength": 1
+          },
+          "i": {
+            "$ref": "#/definitions/texte"
+          }
+        }
+      }
+    },
+    "korrektur": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/tripel"
+      }
+    },
+    "gebiete": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Nur Typ formelsammlung",
+      "items": {
+        "$ref": "#/definitions/gebiet"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "typ": {
+            "enum": [
+              "thema",
+              "arbeitsheft"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "ueberblick",
+          "begleiter"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "typ": {
+            "const": "arbeitsheft"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "ueberblick": {
+            "required": [
+              "quelle",
+              "karte"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "typ": {
+            "const": "formelsammlung"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "gebiete"
+        ]
+      }
+    }
+  ],
+  "definitions": {
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "texte": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/text"
+      }
+    },
+    "paar": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "tripel": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "html": {
+      "type": "string",
+      "description": "Erlaubt: <p>, <b>, <br>, <span class=\"ms|mg|mw|mz|tag\">",
+      "not": {
+        "pattern": "<(?!/?(p|b|br|span)[ >/])|<(p|b|br)\\s+[^>]*[a-z]|<span(?![^>]*class=\"(ms|mg|mw|mz|tag)\"\\s*>)[ >]"
+      }
+    },
+    "ueberblick": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "aufgabe": {
+          "$ref": "#/definitions/html"
+        },
+        "vorher": {
+          "type": "string"
+        },
+        "nachher": {
+          "$ref": "#/definitions/html"
+        },
+        "ausgangslage": {
+          "type": "string"
+        },
+        "auftrag": {
+          "type": "string"
+        },
+        "ueberschrift": {
+          "type": "string"
+        },
+        "muster": {
+          "$ref": "#/definitions/html"
+        },
+        "aufbau": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/paar"
+          }
+        },
+        "kriterien": {
+          "$ref": "#/definitions/texte"
+        },
+        "erlaubt": {
+          "$ref": "#/definitions/texte"
+        },
+        "verboten": {
+          "$ref": "#/definitions/texte"
+        },
+        "quelle": {
+          "type": "string"
+        },
+        "karte": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/tripel"
+          }
+        },
+        "ziel": {
+          "$ref": "#/definitions/texte"
+        },
+        "regel": {
+          "type": "string"
+        }
+      }
+    },
+    "schritt": {
+      "type": "object",
+      "required": [
+        "id",
+        "kurz",
+        "titel",
+        "ziel",
+        "muss"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "kurz": {
+          "$ref": "#/definitions/text"
+        },
+        "titel": {
+          "$ref": "#/definitions/text"
+        },
+        "ziel": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string",
+          "description": "Überschrift der Abhakliste; fehlt → „Muss rein“"
+        },
+        "muss": {
+          "$ref": "#/definitions/texte"
+        },
+        "wissen": {
+          "type": "string"
+        },
+        "fehler": {
+          "$ref": "#/definitions/texte"
+        },
+        "hinweise": {
+          "$ref": "#/definitions/texte",
+          "maxItems": 3,
+          "description": "Tipps in Stufen: allgemein → Ort/Zeilen → konkrete Wörter"
+        },
+        "frage": {
+          "type": "object",
+          "required": [
+            "frage",
+            "optionen",
+            "richtig"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "frage": {
+              "$ref": "#/definitions/text"
+            },
+            "optionen": {
+              "$ref": "#/definitions/texte",
+              "minItems": 2
+            },
+            "richtig": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "warum": {
+              "type": "string"
+            }
+          }
+        },
+        "vorher": {
+          "type": "string"
+        },
+        "nachher": {
+          "$ref": "#/definitions/html"
+        },
+        "vnLabel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "hilfen": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "t",
+              "items"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "t": {
+                "$ref": "#/definitions/text"
+              },
+              "items": {
+                "$ref": "#/definitions/texte"
+              }
+            }
+          }
+        },
+        "wortkiste": {
+          "type": "boolean"
+        },
+        "pruefung": {
+          "enum": [
+            "aequivalenz",
+            "loesung",
+            "einheit"
+          ]
+        },
+        "mitrechnen": {
+          "$ref": "#/definitions/mitrechnen"
+        },
+        "phrases": {
+          "$ref": "#/definitions/texte",
+          "description": "Useful phrases (Englisch)"
+        },
+        "muster": {
+          "type": "string",
+          "description": "Musteraufgabe Schritt für Schritt (HTML)"
+        }
+      },
+      "dependencies": {
+        "vorher": [
+          "nachher"
+        ],
+        "nachher": [
+          "vorher"
+        ]
+      }
+    },
+    "uebung": {
+      "type": "object",
+      "required": [
+        "typ"
+      ],
+      "properties": {
+        "typ": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "auswahl"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "frage",
+              "optionen",
+              "richtig",
+              "warum"
+            ],
+            "properties": {
+              "frage": {
+                "$ref": "#/definitions/text"
+              },
+              "optionen": {
+                "$ref": "#/definitions/texte",
+                "minItems": 2
+              },
+              "richtig": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "warum": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "tippen"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "frage",
+              "tokens",
+              "warum"
+            ],
+            "properties": {
+              "frage": {
+                "$ref": "#/definitions/text"
+              },
+              "tokens": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": [
+                    {
+                      "$ref": "#/definitions/text"
+                    },
+                    {
+                      "enum": [
+                        0,
+                        1
+                      ]
+                    }
+                  ]
+                },
+                "contains": {
+                  "type": "array",
+                  "items": [
+                    {},
+                    {
+                      "const": 1
+                    }
+                  ]
+                }
+              },
+              "warum": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "umschreiben"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "frage",
+              "satz",
+              "loesung"
+            ],
+            "properties": {
+              "frage": {
+                "$ref": "#/definitions/text"
+              },
+              "satz": {
+                "$ref": "#/definitions/text"
+              },
+              "tipp": {
+                "type": "string"
+              },
+              "loesung": {
+                "$ref": "#/definitions/text"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "text"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "titel",
+              "auftrag",
+              "loesung"
+            ],
+            "properties": {
+              "titel": {
+                "$ref": "#/definitions/text"
+              },
+              "vlabel": {
+                "type": "string"
+              },
+              "auftrag": {
+                "$ref": "#/definitions/text"
+              },
+              "vorlage": {
+                "type": "string"
+              },
+              "loesung": {
+                "$ref": "#/definitions/html"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "typ": {
+                "const": "rechenaufgabe"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "aufgabe",
+              "loesung"
+            ],
+            "properties": {
+              "aufgabe": {
+                "$ref": "#/definitions/text"
+              },
+              "loesung": {
+                "$ref": "#/definitions/html"
+              },
+              "ergebnis": {
+                "type": "string"
+              },
+              "tipp": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "gebiet": {
+      "type": "object",
+      "required": [
+        "id",
+        "titel",
+        "fach",
+        "formeln"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "titel": {
+          "$ref": "#/definitions/text"
+        },
+        "fach": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "klasse": {
+          "type": "string"
+        },
+        "formeln": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/formel"
+          }
+        }
+      }
+    },
+    "formel": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "formel",
+        "groessen"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "name": {
+          "$ref": "#/definitions/text"
+        },
+        "formel": {
+          "$ref": "#/definitions/text",
+          "description": "Lesbare Formel, z. B. P = U · I"
+        },
+        "groessen": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/tripel"
+          },
+          "description": "[Zeichen, Bedeutung, Einheit]"
+        },
+        "umstellungen": {
+          "$ref": "#/definitions/texte"
+        },
+        "hinweis": {
+          "type": "string"
+        },
+        "stichwoerter": {
+          "$ref": "#/definitions/texte"
+        }
+      }
+    },
+    "mitrechnen": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "art": {
+          "enum": [
+            "rechnen",
+            "physik"
+          ]
+        },
+        "aufgabe": {
+          "$ref": "#/definitions/texte",
+          "description": "Beispiel-Aufgabe: eine oder mehrere Gleichungen/Terme"
+        },
+        "tipps": {
+          "$ref": "#/definitions/texte"
+        },
+        "gegeben": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/groesse"
+          }
+        },
+        "gesucht": {
+          "$ref": "#/definitions/groesse"
+        },
+        "formel": {
+          "type": "string",
+          "description": "id einer Formel aus der Formelsammlung"
+        },
+        "ergebnis": {
+          "$ref": "#/definitions/groesse"
+        }
+      }
+    },
+    "groesse": {
+      "type": "object",
+      "required": [
+        "zeichen"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "zeichen": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "wert": {
+          "type": "string"
+        },
+        "einheit": {
+          "type": "string"
+        },
+        "toleranz": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

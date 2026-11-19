@@ -1,0 +1,742 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "thema",
+  "id": "deutsch.schilderung-ueberarbeiten",
+  "version": "1.0",
+  "fach": "deutsch",
+  "titel": "Eine Schilderung überarbeiten",
+  "stufe": "Realschule Bayern · 9. Klasse",
+  "ueberblick": {
+    "aufgabe": "Du bekommst einen schwachen Schülertext (eine Schilderung) und sollst ihn verbessern. Die Handlung bleibt gleich, aber du machst daraus einen Text, den der Leser miterlebt: mit Sinneseindrücken, Gefühlen, Gedanken und treffender Sprache. Oft sollst du vorher auch die Schwächen benennen oder am Rand markieren.",
+    "vorher": "Es war ein heißer Tag im Freibad. Ich stehe mit Lukas und den anderen vor dem Zehnmeterturm. Lukas sagt, dass ich mich sowieso nicht traue. Dann bin ich die Leiter hochgegangen. Die Leiter war sehr hoch. Dann war ich oben. Ich hatte Angst. Unten haben alle geschaut. Dann bin ich nach vorne gegangen. Das Wasser war ganz weit weg. Ich dachte, dass ich gleich runterfalle. Dann hat Lukas gerufen: „Spring endlich!“ Ich war sehr nervös. Dann bin ich gesprungen. Es war cool. Im Wasser war es kalt. Danach war ich stolz auf mich.",
+    "nachher": "<p><span class=\"ms\">Die Sonne brennt auf meinen Nacken.</span> <span class=\"ms\">Es riecht nach Chlor und Sonnencreme</span>, irgendwo <span class=\"ms\">kreischt ein kleines Kind</span>. Ich stehe mit Lukas und den anderen vor dem Zehnmeterturm. „Du traust dich doch eh nicht“, <span class=\"mw\">grinst</span> Lukas.</p>\n<p>Ohne zu antworten, <span class=\"mw\">packe</span> ich die Leiter. <span class=\"ms\">Das Metall ist glühend heiß unter meinen Fingern.</span> <span class=\"mz\">Sprosse für Sprosse</span> <span class=\"mw\">ziehe ich mich nach oben</span>. Mit jedem Schritt werden die Stimmen unter mir leiser.</p>\n<p>Oben angekommen, <span class=\"ms\">streicht der Wind kühl über meine nasse Haut</span>. Ich schiebe mich nach vorne, bis meine Zehen über die raue Kante ragen. Unter mir glitzert das Becken – <span class=\"mw\">winzig, wie eine blaue Briefmarke</span>. <span class=\"mg\">Mein Herz hämmert gegen die Rippen. Meine Knie zittern.</span> <span class=\"mg\">Was, wenn ich schief aufkomme? Wenn alle lachen?</span></p>\n<p>„Spring endlich!“, <span class=\"mw\">brüllt</span> Lukas von unten.</p>\n<p><span class=\"mz\">Ich schließe die Augen. Atme ein. Einmal. Zweimal.</span></p>\n<p><span class=\"mz\">Ich springe.</span></p>\n<p><span class=\"ms\">Der Fahrtwind reißt an meinen Haaren</span>, <span class=\"mg\">mein Magen hebt sich bis in den Hals</span>. <span class=\"ms\">Eiskalt schlägt das Wasser über mir zusammen</span>, und für einen Moment ist alles still.</p>\n<p>Als ich prustend auftauche, höre ich Jubel. <span class=\"mg\">Ich grinse. Ich habe es wirklich geschafft.</span></p>",
+    "kriterien": [
+      "Durchgehend Präsens",
+      "Erzählperspektive der Vorlage beibehalten",
+      "Handlung vollständig und unverändert",
+      "Höhepunkt gedehnt (Zeitlupe)",
+      "Sinneseindrücke, Gefühle und Gedanken",
+      "Treffende Wortwahl, sprachliche Bilder",
+      "Abwechslungsreicher Satzbau",
+      "Klare Gliederung: Einleitung, Hauptteil, Schluss"
+    ],
+    "erlaubt": [
+      "Sinneseindrücke ergänzen",
+      "Gefühle und Gedanken einbauen",
+      "Wörter ersetzen, Sätze umbauen",
+      "Wörtliche Rede ergänzen, wenn sie zur Handlung passt",
+      "Schwache Sätze streichen"
+    ],
+    "verboten": [
+      "Neue Ereignisse oder Figuren erfinden",
+      "Das Ende verändern",
+      "Die Perspektive wechseln",
+      "Bewerten oder eine Moral anhängen"
+    ]
+  },
+  "begleiter": [
+    {
+      "id": "lesen",
+      "kurz": "Lesen",
+      "titel": "Vorlage verstehen",
+      "ziel": "Du weißt genau, was passiert und was du verbessern sollst.",
+      "muss": [
+        "Aufgabenstellung genau gelesen: ganzer Text oder nur ein Abschnitt?",
+        "Text zweimal gelesen: einmal für den Inhalt, einmal mit Stift",
+        "Erzählperspektive notiert (Ich-Form oder Er/Sie-Form)",
+        "Handlungsschritte am Rand nummeriert",
+        "Höhepunkt markiert (die spannendste Stelle)",
+        "Notiert: Welches Gefühl soll der Leser am Ende haben?"
+      ],
+      "fehler": [
+        "Sofort losschreiben, ohne den Text verstanden zu haben",
+        "Übersehen, dass nur ein Abschnitt überarbeitet werden soll"
+      ],
+      "hilfen": [
+        {
+          "t": "Fragen an die Vorlage",
+          "items": [
+            "Wer? Wo? Wann?",
+            "Worin liegt die Spannung, das Problem?",
+            "An welcher Stelle kippt die Situation?",
+            "Wie fühlt sich die Figur am Anfang und wie am Ende?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fehler",
+      "kurz": "Fehler finden",
+      "titel": "Schwächen markieren",
+      "ziel": "Du findest, was an der Vorlage schwach ist, bevor du etwas änderst.",
+      "muss": [
+        "Alle Verben geprüft: Präsens? Falsche Zeitform mit T markiert",
+        "Wiederholungen unterstrichen (dann, und, war, ging, sagte …)",
+        "Gefühle eingekreist, die nur benannt werden („Ich hatte Angst“)",
+        "Stellen ohne Sinneseindrücke markiert",
+        "Zu schnell erzählte Stelle am Höhepunkt markiert",
+        "Umgangssprache und Wertungen markiert („cool“, „voll“, „es war schön“)",
+        "Gleiche Satzanfänge und eintönigen Satzbau gefunden"
+      ],
+      "fehler": [
+        "Nur Rechtschreibung verbessern. Es geht vor allem um Stil und Wirkung",
+        "Fehler zwar sehen, aber nicht markieren. Dann vergisst du sie beim Schreiben"
+      ],
+      "hilfen": [
+        {
+          "t": "Gängige Korrekturzeichen",
+          "items": [
+            "T: Tempus (falsche Zeitform)",
+            "A: Ausdruck (unpassendes Wort, Umgangssprache)",
+            "W / Wdh: Wiederholung",
+            "Sb: Satzbau",
+            "Gr: Grammatik",
+            "R: Rechtschreibung · Z: Zeichensetzung",
+            "Achtung: Die Zeichen können bei deiner Lehrkraft abweichen"
+          ]
+        }
+      ],
+      "vorher": "Dann bin ich nach vorne gegangen. Das Wasser war ganz weit weg. Ich hatte Angst.",
+      "nachher": "Dann <span class=\"tag\">W</span> bin ich nach vorne gegangen <span class=\"tag\">T</span>. Das Wasser war <span class=\"tag\">T</span> ganz weit weg. Ich hatte Angst <span class=\"tag\">A</span>",
+      "vnLabel": [
+        "Vorlage",
+        "So markierst du"
+      ]
+    },
+    {
+      "id": "planen",
+      "kurz": "Planen",
+      "titel": "Ideen sammeln",
+      "ziel": "Du hast für jede schwache Stelle eine Idee, bevor du schreibst.",
+      "muss": [
+        "Zu jeder markierten Schwäche eine Verbesserungsidee am Rand notiert",
+        "Sinneseindrücke gesammelt: sehen, hören, riechen, fühlen, schmecken",
+        "Gefühle in Körpersignale übersetzt (Angst → Herz rast …)",
+        "Mindestens zwei Gedanken der Figur notiert (Frage, Ausruf)",
+        "Entschieden: An welcher Stelle dehne ich die Zeit (Zeitlupe)?"
+      ],
+      "fehler": [
+        "Neue Handlung erfinden. Ideen sind nur zum Ausgestalten da, nicht für neue Ereignisse"
+      ],
+      "hilfen": [
+        {
+          "t": "Sinne-Checkliste",
+          "items": [
+            "Sehen: Licht, Farben, Bewegungen, Größen",
+            "Hören: Geräusche, Stimmen, plötzliche Stille",
+            "Riechen: Gerüche der Umgebung",
+            "Fühlen: Temperatur, Oberflächen, Wind, Schmerz",
+            "Schmecken: z. B. salzig, metallisch bei Angst"
+          ]
+        }
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "einleitung",
+      "kurz": "Einleitung",
+      "titel": "Einleitung überarbeiten",
+      "ziel": "Der Leser ist sofort mitten in der Situation.",
+      "muss": [
+        "Durchgehend Präsens",
+        "Ort und Situation anschaulich, mit mindestens einem Sinneseindruck",
+        "Stimmung angedeutet, aber noch nicht alles verraten",
+        "Perspektive der Vorlage beibehalten",
+        "Kurz: 2 bis 4 Sätze"
+      ],
+      "fehler": [
+        "Lange Vorgeschichte („Am Morgen bin ich aufgestanden …“)",
+        "Nüchterne Zeitangabe ohne Atmosphäre: „Es war ein heißer Tag.“"
+      ],
+      "hilfen": [
+        {
+          "t": "Gute Einstiege",
+          "items": [
+            "Mit einem Sinneseindruck: „Die Sonne brennt auf meinen Nacken.“",
+            "Mit einem Geräusch: „Irgendwo kreischt ein Kind.“",
+            "Mit wörtlicher Rede: „Du traust dich doch eh nicht“, grinst Lukas."
+          ]
+        }
+      ],
+      "vorher": "Es war ein heißer Tag im Freibad. Ich stehe mit Lukas und den anderen vor dem Zehnmeterturm.",
+      "nachher": "Die Sonne brennt auf meinen Nacken. Es riecht nach Chlor und Sonnencreme. Ich stehe mit Lukas und den anderen vor dem Zehnmeterturm.",
+      "wortkiste": true
+    },
+    {
+      "id": "hauptteil",
+      "kurz": "Hauptteil",
+      "titel": "Hauptteil & Höhepunkt",
+      "ziel": "Der Leser erlebt den Höhepunkt in Zeitlupe mit.",
+      "muss": [
+        "Höhepunkt gedehnt: Handlung in kleine Schritte zerlegt (Zeitlupe)",
+        "Mindestens drei verschiedene Sinneseindrücke",
+        "Gefühle über den Körper gezeigt statt benannt",
+        "Gedanken der Figur als Frage, Ausruf oder innerer Monolog",
+        "Treffende Verben statt „gehen, machen, sagen, sein“",
+        "Mindestens ein sprachliches Bild (Vergleich, Metapher, Personifikation)",
+        "Satzlänge gewechselt: kurze Sätze oder Ellipsen am spannendsten Punkt",
+        "„Dann“-Ketten durch abwechslungsreiche Satzanfänge ersetzt"
+      ],
+      "fehler": [
+        "Neue Ereignisse dazuerfinden. Die Handlung bleibt wie in der Vorlage",
+        "Ins Präteritum oder Perfekt rutschen („bin gegangen“)",
+        "Zu viele Bilder auf einmal. Dann wirkt der Text übertrieben"
+      ],
+      "hilfen": [
+        {
+          "t": "Satzanfänge statt „dann“",
+          "items": [
+            "Plötzlich …",
+            "Im selben Moment …",
+            "Kaum …, da …",
+            "Mit einem Mal …",
+            "Langsam …",
+            "Noch bevor …"
+          ]
+        },
+        {
+          "t": "Sprachliche Bilder",
+          "items": [
+            "Vergleich: „winzig, wie eine blaue Briefmarke“",
+            "Personifikation: „der Wind streicht über meine Haut“",
+            "Metapher: „ein Meer aus Stimmen“",
+            "Lautmalerei: „Platsch!“",
+            "Ellipse: „Einmal. Zweimal.“",
+            "Rhetorische Frage: „Was, wenn …?“"
+          ]
+        }
+      ],
+      "vorher": "Dann war ich oben. Ich hatte Angst. Unten haben alle geschaut.",
+      "nachher": "Oben angekommen, streicht der Wind kühl über meine Haut. Unter mir glitzert das Becken – winzig, wie eine blaue Briefmarke. Mein Herz hämmert gegen die Rippen. Was, wenn ich schief aufkomme?",
+      "wortkiste": true
+    },
+    {
+      "id": "schluss",
+      "kurz": "Schluss",
+      "titel": "Schluss überarbeiten",
+      "ziel": "Die Spannung löst sich, und ein Gefühl klingt nach.",
+      "muss": [
+        "Spannung löst sich spürbar (Erleichterung, Enttäuschung …)",
+        "Gefühl am Ende gezeigt, nicht nur benannt",
+        "Kurz: 1 bis 3 Sätze",
+        "Keine Moral, kein erhobener Zeigefinger",
+        "Passt zum Ende der Vorlage"
+      ],
+      "fehler": [
+        "Ins bloße Erzählen wechseln: „Danach gingen wir nach Hause und aßen Pizza.“",
+        "Nur „Es war cool.“ oder „Ich war stolz.“"
+      ],
+      "vorher": "Es war cool. Im Wasser war es kalt. Danach war ich stolz auf mich.",
+      "nachher": "Eiskalt schlägt das Wasser über mir zusammen. Als ich prustend auftauche, höre ich Jubel. Ich grinse. Ich habe es wirklich geschafft.",
+      "wortkiste": true
+    },
+    {
+      "id": "pruefen",
+      "kurz": "Prüfen",
+      "titel": "Endkontrolle",
+      "ziel": "Dein Text stimmt inhaltlich, sprachlich und formal.",
+      "muss": [
+        "Ganzen Text einmal nur auf die Zeitform gelesen: überall Präsens?",
+        "Perspektive durchgehend gleich",
+        "Handlung der Vorlage vollständig und unverändert",
+        "Keine Wortwiederholungen in aufeinanderfolgenden Sätzen",
+        "Wörtliche Rede richtig gesetzt",
+        "Rechtschreibung geprüft (Großschreibung, das/dass)",
+        "Absätze für Einleitung, Hauptteil und Schluss"
+      ],
+      "fehler": [
+        "Keine Zeit für die Kontrolle einplanen. Rechne 5 bis 10 Minuten ein"
+      ],
+      "hilfen": [
+        {
+          "t": "Zeichensetzung bei wörtlicher Rede",
+          "items": [
+            "Er sagt: „Komm her.“",
+            "„Komm her“, sagt er.",
+            "„Komm her!“, ruft er.",
+            "„Kommst du?“, fragt er.",
+            "„Komm“, sagt er, „sonst verpasst du es.“"
+          ]
+        }
+      ]
+    }
+  ],
+  "uebungen": {
+    "einstieg": [
+      {
+        "typ": "auswahl",
+        "frage": "In welcher Zeitform schreibst du eine Schilderung normalerweise?",
+        "optionen": [
+          "Präteritum",
+          "Präsens",
+          "Perfekt"
+        ],
+        "richtig": 1,
+        "warum": "Das Präsens holt den Leser ins Geschehen, als passiere alles gerade jetzt. Gibt die Aufgabe etwas anderes vor, gilt die Aufgabe."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satz zeigt ein Gefühl, statt es nur zu benennen?",
+        "optionen": [
+          "Ich hatte große Angst.",
+          "Ich war sehr nervös.",
+          "Meine Finger kleben schweißnass am Geländer."
+        ],
+        "richtig": 2,
+        "warum": "Der Leser erkennt die Angst selbst, und zwar an den Körpersignalen."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Was darfst du beim Überarbeiten NICHT?",
+        "optionen": [
+          "Sinneseindrücke ergänzen",
+          "Neue Ereignisse dazuerfinden",
+          "Gedanken der Figur einbauen"
+        ],
+        "richtig": 1,
+        "warum": "Die Handlung bleibt gleich. Du gestaltest aus, aber du erfindest nichts Neues."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Wo dehnst du die Zeit am stärksten?",
+        "optionen": [
+          "In der Einleitung",
+          "Am Höhepunkt",
+          "Im Schluss"
+        ],
+        "richtig": 1,
+        "warum": "Am Höhepunkt zerlegst du die Handlung in kleine Schritte, wie in Zeitlupe."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satzanfang ersetzt eine „dann“-Kette am besten?",
+        "optionen": [
+          "Und dann …",
+          "Danach dann …",
+          "Im selben Moment …"
+        ],
+        "richtig": 2,
+        "warum": "„Im selben Moment“ schafft Tempo und Spannung, ohne zu wiederholen."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welches Korrekturzeichen steht meist für eine falsche Zeitform?",
+        "optionen": [
+          "T",
+          "R",
+          "Z"
+        ],
+        "richtig": 0,
+        "warum": "T = Tempus. R steht für Rechtschreibung, Z für Zeichensetzung. Bei deiner Lehrkraft können die Zeichen leicht abweichen."
+      }
+    ],
+    "sicher": [
+      {
+        "typ": "tippen",
+        "frage": "Tippe alle Verbformen an, die NICHT im Präsens stehen.",
+        "tokens": [
+          [
+            "Ich",
+            0
+          ],
+          [
+            "stehe",
+            0
+          ],
+          [
+            "vor",
+            0
+          ],
+          [
+            "dem",
+            0
+          ],
+          [
+            "Turm.",
+            0
+          ],
+          [
+            "Lukas",
+            0
+          ],
+          [
+            "sagt",
+            0
+          ],
+          [
+            "etwas.",
+            0
+          ],
+          [
+            "Dann",
+            0
+          ],
+          [
+            "bin",
+            1
+          ],
+          [
+            "ich",
+            0
+          ],
+          [
+            "hochgegangen.",
+            1
+          ],
+          [
+            "Oben",
+            0
+          ],
+          [
+            "war",
+            1
+          ],
+          [
+            "es",
+            0
+          ],
+          [
+            "windig.",
+            0
+          ],
+          [
+            "Ich",
+            0
+          ],
+          [
+            "schaue",
+            0
+          ],
+          [
+            "nach",
+            0
+          ],
+          [
+            "unten.",
+            0
+          ]
+        ],
+        "warum": "„bin hochgegangen“ ist Perfekt, „war“ ist Präteritum. Besser: „Dann klettere ich hoch. Oben ist es windig.“"
+      },
+      {
+        "typ": "tippen",
+        "frage": "Tippe alle Wörter an, die umgangssprachlich sind oder nur bewerten.",
+        "tokens": [
+          [
+            "Der",
+            0
+          ],
+          [
+            "Sprung",
+            0
+          ],
+          [
+            "war",
+            0
+          ],
+          [
+            "voll",
+            1
+          ],
+          [
+            "cool",
+            1
+          ],
+          [
+            "und",
+            0
+          ],
+          [
+            "echt",
+            1
+          ],
+          [
+            "krass.",
+            1
+          ],
+          [
+            "Das",
+            0
+          ],
+          [
+            "Wasser",
+            0
+          ],
+          [
+            "spritzt",
+            0
+          ],
+          [
+            "hoch.",
+            0
+          ]
+        ],
+        "warum": "„voll“, „cool“, „echt“ und „krass“ sind Umgangssprache bzw. Wertungen. Zeige lieber, was passiert und wie es sich anfühlt."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Mach daraus einen schildernden Satz.",
+        "satz": "Dann bin ich die Leiter hochgegangen.",
+        "tipp": "Präsens · treffendes Verb · Zeitlupe · ein Sinneseindruck",
+        "loesung": "Sprosse für Sprosse ziehe ich mich die Leiter hinauf. Das Metall brennt heiß unter meinen Fingern."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Zeige das Gefühl, statt es zu benennen.",
+        "satz": "Ich hatte Angst.",
+        "tipp": "Körpersignale: Herz, Hände, Knie, Atem, Magen",
+        "loesung": "Mein Herz hämmert gegen die Rippen. Meine Knie fühlen sich an wie Pudding."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Baue einen Gedanken der Figur ein.",
+        "satz": "Ich ging nach vorne an die Kante.",
+        "tipp": "Präsens · Gedanke als Frage oder Ausruf",
+        "loesung": "Zentimeter für Zentimeter schiebe ich mich an die Kante. Was, wenn ich ausrutsche?"
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Ersetze die „dann“-Kette und mach die Stelle spannender.",
+        "satz": "Dann hat Lukas gerufen: „Spring endlich!“ Dann bin ich gesprungen.",
+        "tipp": "Treffendes Redeverb · kurze Sätze · Ellipse",
+        "loesung": "„Spring endlich!“, brüllt Lukas von unten. Ich schließe die Augen. Atme ein. Und springe."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satz enthält eine Personifikation?",
+        "optionen": [
+          "Der Wind streicht über meine Haut.",
+          "Das Becken ist winzig wie eine Briefmarke.",
+          "Platsch!"
+        ],
+        "richtig": 0,
+        "warum": "Der Wind „streicht“ wie ein Mensch, das ist eine Personifikation. Satz 2 ist ein Vergleich, Satz 3 Lautmalerei."
+      }
+    ],
+    "schulaufgabe": [
+      {
+        "typ": "text",
+        "titel": "Der Zehnmeterturm (Ich-Form)",
+        "auftrag": "Überarbeite den Text eines Mitschülers zu einer gelungenen Schilderung. Behalte die Ich-Form und die Handlung bei.",
+        "vorlage": "Es war ein heißer Tag im Freibad. Ich stehe mit Lukas und den anderen vor dem Zehnmeterturm. Lukas sagt, dass ich mich sowieso nicht traue. Dann bin ich die Leiter hochgegangen. Die Leiter war sehr hoch. Dann war ich oben. Ich hatte Angst. Unten haben alle geschaut. Dann bin ich nach vorne gegangen. Das Wasser war ganz weit weg. Ich dachte, dass ich gleich runterfalle. Dann hat Lukas gerufen: „Spring endlich!“ Ich war sehr nervös. Dann bin ich gesprungen. Es war cool. Im Wasser war es kalt. Danach war ich stolz auf mich.",
+        "loesung": "<p><span class=\"ms\">Die Sonne brennt auf meinen Nacken.</span> <span class=\"ms\">Es riecht nach Chlor und Sonnencreme</span>, irgendwo <span class=\"ms\">kreischt ein kleines Kind</span>. Ich stehe mit Lukas und den anderen vor dem Zehnmeterturm. „Du traust dich doch eh nicht“, <span class=\"mw\">grinst</span> Lukas.</p>\n<p>Ohne zu antworten, <span class=\"mw\">packe</span> ich die Leiter. <span class=\"ms\">Das Metall ist glühend heiß unter meinen Fingern.</span> <span class=\"mz\">Sprosse für Sprosse</span> <span class=\"mw\">ziehe ich mich nach oben</span>. Mit jedem Schritt werden die Stimmen unter mir leiser.</p>\n<p>Oben angekommen, <span class=\"ms\">streicht der Wind kühl über meine nasse Haut</span>. Ich schiebe mich nach vorne, bis meine Zehen über die raue Kante ragen. Unter mir glitzert das Becken – <span class=\"mw\">winzig, wie eine blaue Briefmarke</span>. <span class=\"mg\">Mein Herz hämmert gegen die Rippen. Meine Knie zittern.</span> <span class=\"mg\">Was, wenn ich schief aufkomme? Wenn alle lachen?</span></p>\n<p>„Spring endlich!“, <span class=\"mw\">brüllt</span> Lukas von unten.</p>\n<p><span class=\"mz\">Ich schließe die Augen. Atme ein. Einmal. Zweimal.</span></p>\n<p><span class=\"mz\">Ich springe.</span></p>\n<p><span class=\"ms\">Der Fahrtwind reißt an meinen Haaren</span>, <span class=\"mg\">mein Magen hebt sich bis in den Hals</span>. <span class=\"ms\">Eiskalt schlägt das Wasser über mir zusammen</span>, und für einen Moment ist alles still.</p>\n<p>Als ich prustend auftauche, höre ich Jubel. <span class=\"mg\">Ich grinse. Ich habe es wirklich geschafft.</span></p>"
+      },
+      {
+        "typ": "text",
+        "titel": "Stromausfall (Er/Sie-Form)",
+        "auftrag": "Überarbeite den folgenden Text zu einer gelungenen Schilderung. Behalte die Er/Sie-Form und die Handlung bei. Schreibe im Präsens.",
+        "vorlage": "Mia war allein zu Hause. Ihre Eltern waren im Kino. Plötzlich ging das Licht aus. Mia bekommt Angst. Es war total dunkel. Dann hörte sie ein Geräusch. Das Geräusch kam aus dem Flur. Mia ging in den Flur. Sie hatte sehr große Angst. Dann sah sie einen Schatten. Dann ging das Licht wieder an. Es war nur die Katze. Mia war erleichtert.",
+        "loesung": "<p>Mia sitzt allein auf dem Sofa. Der Fernseher murmelt leise vor sich hin, draußen peitscht der Regen gegen das Fenster. Ihre Eltern kommen erst nach Mitternacht aus dem Kino zurück.</p>\n<p>Plötzlich – ein Klicken. Dann ist alles schwarz. Der Fernseher verstummt. Mia hält den Atem an. Die Dunkelheit legt sich um sie wie eine schwere Decke.</p>\n<p>Da! Ein Knarzen. Es kommt aus dem Flur. Mias Finger krallen sich in das Sofakissen. War das die Haustür? Ist da jemand?</p>\n<p>Langsam schiebt sie die Füße auf den kalten Boden. Schritt für Schritt tastet sie sich an der Wand entlang. Ihr Herz pocht so laut, dass sie glaubt, man müsse es im ganzen Haus hören. Am Ende des Flurs bewegt sich etwas. Ein Schatten, klein und schnell.</p>\n<p>Mia erstarrt.</p>\n<p>Mit einem leisen Summen springt das Licht wieder an. Vor ihr sitzt Minka und blinzelt sie verschlafen an.</p>\n<p>Mia lässt sich gegen die Wand sinken. Die ganze Anspannung fällt von ihr ab, und sie muss lachen.</p>"
+      }
+    ]
+  },
+  "raster": [
+    "Präsens durchgehend",
+    "Perspektive beibehalten",
+    "Handlung vollständig, nichts dazuerfunden",
+    "Höhepunkt gedehnt",
+    "Mindestens 3 Sinneseindrücke",
+    "Gefühle gezeigt statt benannt",
+    "Gedanken der Figur eingebaut",
+    "Treffende Wortwahl, keine Wiederholungen",
+    "Satzbau abwechslungsreich",
+    "Einleitung, Hauptteil, Schluss erkennbar"
+  ],
+  "merkzettel": [
+    [
+      "Zeitform",
+      "Präsens, das ist der Standard bei der Schilderung. Gibt die Aufgabe oder deine Lehrkraft etwas anderes vor, gilt das."
+    ],
+    [
+      "Perspektive",
+      "Die der Vorlage beibehalten (Ich- oder Er/Sie-Form)."
+    ],
+    [
+      "Handlung",
+      "Bleibt gleich. Du gestaltest aus, du erfindest nichts Neues."
+    ],
+    [
+      "Sinne",
+      "Sehen, hören, riechen, fühlen, schmecken."
+    ],
+    [
+      "Gefühle",
+      "Zeigen statt benennen, und zwar über den Körper."
+    ],
+    [
+      "Gedanken",
+      "Fragen, Ausrufe, innerer Monolog."
+    ],
+    [
+      "Zeitlupe",
+      "Den Höhepunkt in kleine Schritte zerlegen."
+    ],
+    [
+      "Sprache",
+      "Treffende Verben, Vergleiche, Personifikationen, Lautmalerei."
+    ],
+    [
+      "Satzbau",
+      "Abwechseln. Kurze Sätze und Ellipsen für Spannung."
+    ],
+    [
+      "Tabu",
+      "„Dann“-Ketten, Umgangssprache, Wertungen („cool“), Moral am Schluss."
+    ]
+  ],
+  "wortkiste": [
+    {
+      "g": "Statt „gehen“",
+      "i": [
+        "schleichen",
+        "stapfen",
+        "tappen",
+        "hasten",
+        "stolpern",
+        "sich schleppen",
+        "klettern",
+        "huschen"
+      ]
+    },
+    {
+      "g": "Statt „sagen“",
+      "i": [
+        "flüstern",
+        "murmeln",
+        "brüllen",
+        "zischen",
+        "stammeln",
+        "keuchen",
+        "rufen",
+        "wispern"
+      ]
+    },
+    {
+      "g": "Statt „sehen“",
+      "i": [
+        "starren",
+        "blinzeln",
+        "mustern",
+        "erspähen",
+        "spähen",
+        "den Blick heften auf"
+      ]
+    },
+    {
+      "g": "Angst",
+      "i": [
+        "Das Herz hämmert",
+        "Die Knie werden weich",
+        "Die Kehle ist wie zugeschnürt",
+        "Kalter Schweiß auf der Stirn",
+        "Der Magen verkrampft sich",
+        "Ein Schauer läuft über den Rücken"
+      ]
+    },
+    {
+      "g": "Nervosität",
+      "i": [
+        "Die Hände sind feucht",
+        "Ich schlucke trocken",
+        "Die Finger trommeln",
+        "Ich kaue auf der Lippe",
+        "Mein Bein wippt"
+      ]
+    },
+    {
+      "g": "Erleichterung & Freude",
+      "i": [
+        "Eine Last fällt ab",
+        "Ich atme tief aus",
+        "Ein Grinsen breitet sich aus",
+        "Das Herz macht einen Sprung"
+      ]
+    },
+    {
+      "g": "Wut",
+      "i": [
+        "Ich balle die Fäuste",
+        "Das Blut rauscht in den Ohren",
+        "Ich presse die Lippen aufeinander"
+      ]
+    },
+    {
+      "g": "Geräusche",
+      "i": [
+        "rauschen",
+        "knarzen",
+        "dröhnen",
+        "knistern",
+        "zischen",
+        "plätschern",
+        "Totenstille"
+      ]
+    },
+    {
+      "g": "Satzanfänge statt „dann“",
+      "i": [
+        "Plötzlich",
+        "Im selben Moment",
+        "Kaum …, da",
+        "Mit einem Mal",
+        "Langsam",
+        "Noch bevor",
+        "Auf einmal",
+        "Als …"
+      ]
+    },
+    {
+      "g": "Sprachliche Bilder",
+      "i": [
+        "Vergleich: wie eine Briefmarke",
+        "Metapher: ein Meer aus Stimmen",
+        "Personifikation: der Wind streicht",
+        "Lautmalerei: Platsch!",
+        "Ellipse: Einmal. Zweimal.",
+        "Rhetorische Frage: Was, wenn …?"
+      ]
+    }
+  ],
+  "korrektur": [
+    [
+      "T",
+      "Tempus",
+      "„Dann bin ich gegangen.“ → „Dann gehe ich.“"
+    ],
+    [
+      "A",
+      "Ausdruck",
+      "„Es war cool.“ → unpassendes Wort, Umgangssprache"
+    ],
+    [
+      "W",
+      "Wiederholung (auch Wdh)",
+      "„Dann … Dann … Dann …“"
+    ],
+    [
+      "Sb",
+      "Satzbau",
+      "Satz unvollständig oder verdreht"
+    ],
+    [
+      "Gr",
+      "Grammatik",
+      "Falscher Fall, falsche Endung"
+    ],
+    [
+      "Bz",
+      "Bezug",
+      "Unklar, worauf sich „er“ oder „das“ bezieht"
+    ],
+    [
+      "R",
+      "Rechtschreibung",
+      "„das“ statt „dass“"
+    ],
+    [
+      "Z",
+      "Zeichensetzung",
+      "Komma, Redezeichen"
+    ]
+  ]
+}

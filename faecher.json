@@ -1,0 +1,6 @@
+[
+  {"id":"deutsch",  "name":"Deutsch",  "farbe":"#C0532F", "farbeDunkel":"#F0937A", "begleiterTyp":"schreiben"},
+  {"id":"mathe",    "name":"Mathe",    "farbe":"#2F6CB3", "farbeDunkel":"#8DB6EC", "begleiterTyp":"rechnen"},
+  {"id":"englisch", "name":"Englisch", "farbe":"#2E8656", "farbeDunkel":"#7FCF9E", "begleiterTyp":"schreiben"},
+  {"id":"physik",   "name":"Physik",   "farbe":"#B07D0C", "farbeDunkel":"#E2BB5C", "begleiterTyp":"physik"}
+]

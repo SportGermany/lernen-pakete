@@ -1,0 +1,693 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "arbeitsheft",
+  "id": "deutsch.ah-s31-klassensprecherfahrt",
+  "version": "1.0",
+  "fach": "deutsch",
+  "titel": "Schilderung: Abend am See (AH S. 31)",
+  "stufe": "Realschule Bayern · 9. Klasse",
+  "ueberblick": {
+    "quelle": "Arbeitsheft Deutsch, S. 31 · Aufgaben 1a–c und 2",
+    "aufgabe": "Im Arbeitsheft steht der Anfang einer Schilderung, die eine Neuntklässlerin geschrieben hat. Er hat Stärken und Schwächen. Zuerst beurteilst du die Einleitung (1a), dann markierst du gelungene Stellen grün (1b) und schwache rot (1c). Danach schreibst du die vollständige Schilderung in dein Heft (2): Gute Stellen übernimmst du, schwache formulierst du neu, und am Ende ergänzt du einen Schluss.",
+    "karte": [
+      [
+        "Z. 1–6",
+        "Einleitung",
+        "Ist sie zu knapp, zu ausführlich oder richtig? (1a)"
+      ],
+      [
+        "Z. 7–14",
+        "Hauptteil (Beginn)",
+        "Grün und rot markieren (1b, 1c)"
+      ],
+      [
+        "fehlt",
+        "Schluss",
+        "Schreibst du selbst (2)"
+      ]
+    ],
+    "ziel": [
+      "Überschrift (darf bleiben)",
+      "Kürzere Einleitung ohne Nebensächliches und ohne Widerspruch",
+      "Hauptteil: grüne Stellen übernommen, rote neu formuliert",
+      "Zusätzliche Sinneseindrücke, Gefühle und Gedanken der Ich-Figur",
+      "Neuer Schluss: Wie endet der Abend, und was bleibt?",
+      "Durchgehend Präsens im Hier und Jetzt, keine Umgangssprache"
+    ],
+    "regel": "Schlag das Lösungsheft erst im letzten Schritt auf. Dein Text muss nicht genauso aussehen. Er ist gut, wenn er dieselben Merkmale erfüllt.",
+    "kriterien": [
+      "Einleitung kurz und auf die Szene ausgerichtet",
+      "Gelungene Stellen übernommen",
+      "Keine Umgangssprache",
+      "Keine Wortwiederholungen, abwechslungsreicher Satzbau",
+      "Sinneseindrücke: sehen, hören, fühlen, riechen",
+      "Gefühle und Gedanken der Ich-Figur",
+      "Präsens für das Geschehen am Abend",
+      "Passender Schluss mit Gefühl"
+    ],
+    "erlaubt": [
+      "Gelungene Stellen wörtlich übernehmen",
+      "Sätze kürzen, verbinden oder umstellen",
+      "Sinneseindrücke und Gedanken ergänzen",
+      "Weitere Personen am Feuer handeln lassen"
+    ],
+    "verboten": [
+      "Neue Handlung erfinden (Gewitter, Streit …)",
+      "Die Perspektive wechseln",
+      "Umgangssprache stehen lassen",
+      "Eine Moral anhängen"
+    ]
+  },
+  "begleiter": [
+    {
+      "id": "a1",
+      "kurz": "1a Einleitung",
+      "titel": "1a · Einleitung beurteilen",
+      "label": "Erledigt?",
+      "ziel": "Du entscheidest begründet: zu knapp, zu ausführlich oder genau richtig?",
+      "wissen": "Eine Einleitung führt kurz in die Situation: Wo? Wann? Welche Stimmung? Alles, was nicht zur Szene beiträgt, bremst den Leser aus.",
+      "muss": [
+        "Zeilen 1–6 langsam gelesen",
+        "Sätze der Einleitung gezählt",
+        "Bei jedem Satz gefragt: Braucht der Leser das für die Abendszene am See?",
+        "Nebensächliches am Rand mit Bleistift eingeklammert",
+        "Zahlen im Text verglichen: Passt alles zusammen?",
+        "Kreuz bei 1a gesetzt"
+      ],
+      "hinweise": [
+        "Zähl mal: Wie viele Zeilen vergehen, bis das Lagerfeuer auftaucht? Und wie viel Platz bleibt danach für die eigentliche Szene?",
+        "Schau dir Z. 3 an: Muss der Leser genau wissen, wofür der Ausflug eine Belohnung ist? Und Z. 4–5: Ist der Hotelwunsch wichtig für den Abend am See?",
+        "Vergleiche Z. 1 mit Z. 6. Dort stehen zwei unterschiedliche Angaben zur Dauer der Fahrt."
+      ],
+      "frage": {
+        "frage": "Wie ist die Einleitung also?",
+        "optionen": [
+          "etwas knapp",
+          "zu ausführlich",
+          "gerade richtig"
+        ],
+        "richtig": 1,
+        "warum": "Sie enthält Dinge, die für die Szene nicht wichtig sind, und dazu einen Widerspruch bei der Dauer. Die Grundidee „Wir waren erst enttäuscht“ ist aber gut, denn sie schafft einen Kontrast zum schönen Abend. Die behältst du."
+      }
+    },
+    {
+      "id": "b1",
+      "kurz": "1b Grün",
+      "titel": "1b · Gelungenes grün markieren",
+      "label": "Erledigt?",
+      "ziel": "Du erkennst, was sprachlich schon gut ist, und behältst es später.",
+      "wissen": "Treffend heißt: genauer als ein Allerweltswort. „lodern“ sagt mehr als „brennen“, „schlendern“ mehr als „gehen“. Anschaulich heißt: Man sieht, hört oder spürt es beim Lesen.",
+      "muss": [
+        "Zuerst nur nach treffenden Verben gesucht",
+        "Dann nach anschaulichen Adjektiv-Nomen-Paaren gesucht",
+        "Nach Sinneseindrücken gesucht (sehen, hören, fühlen)",
+        "Mindestens 5 Stellen grün markiert",
+        "Bei jeder grünen Stelle kurz überlegt: Warum ist das gut?"
+      ],
+      "hinweise": [
+        "Die meisten gelungenen Stellen stehen im Hauptteil ab Z. 7. In der Einleitung wirst du kaum fündig.",
+        "Z. 7–8: Achte auf das Feuer, den Himmel und das Wasser. Z. 12–13: Achte auf den Boden und die Luft.",
+        "Einzelne Wörter, bei denen du genauer hinschauen solltest: lodernde · spiegelt · glühende · weichen · schwülwarmen · zirpen"
+      ],
+      "frage": {
+        "frage": "Welches dieser Verben ist besonders treffend?",
+        "optionen": [
+          "sich spiegeln",
+          "sein",
+          "sich wohlfühlen"
+        ],
+        "richtig": 0,
+        "warum": "„sich spiegeln“ beschreibt genau, was der Himmel im See macht. „sein“ und „sich wohlfühlen“ sind eher allgemein."
+      }
+    },
+    {
+      "id": "c1",
+      "kurz": "1c Rot",
+      "titel": "1c · Schwächen rot markieren",
+      "label": "Erledigt?",
+      "ziel": "Du findest die drei Fehlerarten aus der Aufgabe: Umgangssprache, Wortwiederholung und Wiederholung im Satzbau.",
+      "wissen": "Umgangssprache erkennst du mit der Frage: Würde das so in einem Zeitungsartikel stehen? Wenn nicht, ist es zu locker für eine Schilderung.",
+      "muss": [
+        "Einen Durchgang nur nach Umgangssprache gesucht",
+        "Einen Durchgang nur nach Wörtern gesucht, die kurz hintereinander doppelt vorkommen",
+        "Nach Sätzen gesucht, die direkt hintereinander gleich gebaut sind",
+        "Nach verkürzten Wörtern gesucht (Endung fehlt)",
+        "Satzanfänge geprüft: Beginnt ein Satz mit „Und“?",
+        "Alles rot markiert"
+      ],
+      "hinweise": [
+        "Umgangssprache: In Z. 4–5 stecken zwei Stellen, in Z. 9–10 drei (eine davon ist eine verkürzte Verbform).",
+        "Satzbau und Wortwiederholung: Lies Z. 11 laut. Zwei Sätze direkt hintereinander beginnen gleich und sind gleich gebaut.",
+        "Stellen zum Prüfen: coole · Pampa · hab · quatschen · super… · zweimal „Ich höre …“ · der Satzanfang in Z. 5"
+      ],
+      "frage": {
+        "frage": "Was ist bei zweimal „Ich höre …“ direkt hintereinander das Problem?",
+        "optionen": [
+          "Umgangssprache",
+          "Wiederholung im Satzbau und Wortwiederholung",
+          "Falsche Zeitform"
+        ],
+        "richtig": 1,
+        "warum": "Zwei Sätze mit gleichem Anfang und gleichem Aufbau wirken eintönig. Lösungen: verbinden, umstellen oder eine andere Person handeln lassen."
+      }
+    },
+    {
+      "id": "plan",
+      "kurz": "2 Planen",
+      "titel": "2 · Schreibplan",
+      "label": "Erledigt?",
+      "ziel": "Bevor du schreibst, weißt du: Was übernehme ich, was ändere ich, was kommt neu dazu?",
+      "muss": [
+        "Überschrift: entschieden, ob sie bleibt",
+        "Einleitung: durchgestrichen, was wegfallen soll",
+        "Widerspruch bei der Dauer: entschieden, welche Angabe stimmt",
+        "Zu jeder roten Stelle eine Ersatz-Idee an den Rand geschrieben",
+        "2–3 neue Sinneseindrücke gesammelt, die zum Lagerfeuer passen",
+        "Eine Idee für einen Gedanken oder Ausruf der Ich-Figur",
+        "Eine Idee für den Schluss: Wie endet der Abend?"
+      ],
+      "hinweise": [
+        "Für die Ersatz-Ideen hilft dir die Wortkiste, Gruppe „Statt Umgangssprache“.",
+        "Am Lagerfeuer gibt es viel zu fühlen: Wärme im Gesicht, die Decke um die Schultern, Rauch in der Nase. Was davon fehlt im Text noch?",
+        "Zur Gitarre: Wer spielt eigentlich? Wenn eine andere Person im Satz handelt, ist eines der „Ich höre …“ schon weg."
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "einl",
+      "kurz": "2 Einleitung",
+      "titel": "2 · Einleitung neu schreiben",
+      "ziel": "Eine kurze Einleitung, die direkt zur Abendstimmung am See führt.",
+      "muss": [
+        "Höchstens 4–5 Sätze",
+        "Ort und Zeitpunkt klar (letzter Abend, See, Natur)",
+        "Die anfängliche Enttäuschung kurz behalten, als Kontrast für später",
+        "Nebensächliches gestrichen",
+        "Widerspruch bei der Dauer beseitigt",
+        "Umgangssprache ersetzt",
+        "Kein Satz beginnt mit „Und“",
+        "Zeitform: Präsens für das Jetzt; der Rückblick auf die Enttäuschung darf in der Vergangenheit stehen"
+      ],
+      "fehler": [
+        "Alles streichen. Die Enttäuschung ist wichtig, damit der schöne Abend später umso mehr wirkt",
+        "Neue Vorgeschichte dazuerfinden"
+      ],
+      "vorher": "Wir waren im Zeltlager. Wir wollten eigentlich ins Freibad, aber das ging nicht, weil der Bus kaputt war und weil der Lehrer gesagt hat, dass es zu teuer ist, und deswegen sind wir halt in den Wald.",
+      "nachher": "Eigentlich wollten wir ins Freibad. Stattdessen sitzen wir nun im Zeltlager mitten im Wald.",
+      "vnLabel": [
+        "Eigenes Beispiel · zu lang",
+        "So kürzt man"
+      ],
+      "hinweise": [
+        "Lies die Einleitung ohne die eingeklammerten Teile. Fehlt dem Leser dann etwas Wichtiges?",
+        "Für die Enttäuschung reicht ein Wunsch, die Großstadt. Ob noch ein Hotel dazukommt, ist für den Abend am See egal."
+      ]
+    },
+    {
+      "id": "haupt",
+      "kurz": "2 Hauptteil",
+      "titel": "2 · Hauptteil verbessern & ergänzen",
+      "ziel": "Die grünen Stellen bleiben, die roten werden besser, und der Leser sitzt mit am Feuer.",
+      "muss": [
+        "Alle grünen Stellen übernommen",
+        "Jede rote Stelle neu formuliert",
+        "Die beiden „Ich höre …“-Sätze umgebaut",
+        "Mindestens 2 zusätzliche Sinneseindrücke (z. B. fühlen, sehen)",
+        "Mindestens ein Gedanke oder Ausruf der Ich-Figur",
+        "Auch andere Personen handeln lassen, nicht nur „ich“",
+        "Satzanfänge abwechslungsreich",
+        "Durchgehend Präsens"
+      ],
+      "fehler": [
+        "Neue Handlung erfinden (Gewitter, Streit …)",
+        "Grüne Stellen „verbessern“ und sie dabei verschlechtern"
+      ],
+      "vorher": "Ich sehe das Feuer. Ich sehe die Sterne. Die Stimmung ist mega.",
+      "nachher": "Vor mir knistert das Feuer, darüber funkeln die ersten Sterne. Was für eine Stimmung!",
+      "vnLabel": [
+        "Eigenes Beispiel · vorher",
+        "Nachher"
+      ],
+      "hinweise": [
+        "Ein Ausruf wie „Was für …!“ oder „Einfach …!“ zeigt die Gefühle der Ich-Figur, ohne „Ich fühle mich …“ zu schreiben.",
+        "Was sieht die Ich-Figur, wenn sie in die Runde schaut? Wie sehen die Gesichter im Feuerschein aus?",
+        "Du darfst die Reihenfolge der Sätze leicht umstellen, wenn der Text dann besser fließt."
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "schluss",
+      "kurz": "2 Schluss",
+      "titel": "2 · Schluss ergänzen",
+      "ziel": "Der Abend findet ein Ende, und ein Gefühl bleibt.",
+      "muss": [
+        "Zeigt, wie der Abend weitergeht oder endet",
+        "Gefühl am Ende gezeigt (z. B. müde, glücklich, wehmütig)",
+        "Bezug zum Anfang: Wie denkt die Ich-Figur jetzt über das Ziel der Fahrt?",
+        "2–4 Sätze",
+        "Präsens",
+        "Keine Moral („Daraus habe ich gelernt …“)"
+      ],
+      "fehler": [
+        "Den nächsten Tag ausführlich erzählen",
+        "Nur „Es war ein schöner Abend.“"
+      ],
+      "hinweise": [
+        "Wie fühlt sich Zeit an, wenn es gemütlich ist? Merkt man, wie sie vergeht?",
+        "Will überhaupt jemand schlafen gehen? Wie lange sitzt ihr wohl noch da?",
+        "Am Anfang wart ihr enttäuscht über die Natur. Ein Schluss, der darauf zurückkommt, rundet die Schilderung ab."
+      ],
+      "wortkiste": true
+    },
+    {
+      "id": "vergleich",
+      "kurz": "Vergleichen",
+      "titel": "Mit dem Lösungsheft vergleichen",
+      "label": "Erledigt?",
+      "ziel": "Du siehst, was du schon genauso gemacht hast und was du dir abschauen kannst.",
+      "wissen": "Dein Text muss nicht gleich sein wie die Beispiellösung. Er ist gut, wenn er dieselben Merkmale erfüllt.",
+      "muss": [
+        "Erst jetzt das Lösungsheft aufgeschlagen",
+        "Einleitung verglichen: Hast du ähnlich viel gekürzt?",
+        "Rote Stellen verglichen: Welche Ersatzwörter hat das Lösungsheft gewählt?",
+        "Die Gitarren-Stelle verglichen: Wie wurde der Satzbau gelöst?",
+        "Schluss verglichen: Was ist ähnlich, was anders?",
+        "2–3 Formulierungen markiert, die du dir für die Schulaufgabe merken willst",
+        "Die Checkliste unter der Lösung einmal durchgegangen"
+      ]
+    }
+  ],
+  "uebungen": {
+    "einstieg": [
+      {
+        "typ": "auswahl",
+        "frage": "Was gehört in eine gute Einleitung einer Schilderung?",
+        "optionen": [
+          "Die ganze Vorgeschichte",
+          "Ort, Zeit und Stimmung, kurz",
+          "Eine Zusammenfassung des Schlusses"
+        ],
+        "richtig": 1,
+        "warum": "Die Einleitung führt nur kurz hinein. Der Platz gehört der Szene."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welches Wort ist Umgangssprache?",
+        "optionen": [
+          "zocken",
+          "spielen",
+          "sich beschäftigen"
+        ],
+        "richtig": 0,
+        "warum": "„zocken“ sagst du unter Freunden. In einer Schilderung schreibst du „spielen“."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welches Paar ist am anschaulichsten?",
+        "optionen": [
+          "ein schönes Feuer",
+          "ein knisterndes Feuer",
+          "ein Feuer"
+        ],
+        "richtig": 1,
+        "warum": "„knisternd“ lässt dich das Feuer hören. „schön“ ist nur eine Wertung."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Was ist eine Wiederholung im Satzbau?",
+        "optionen": [
+          "Zwei Sätze direkt hintereinander mit gleichem Anfang und Aufbau",
+          "Ein falsch geschriebenes Wort",
+          "Ein Satz ohne Verb"
+        ],
+        "richtig": 0,
+        "warum": "Gleich gebaute Sätze hintereinander wirken eintönig, wie eine Aufzählung."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Darfst du bei so einer Aufgabe gelungene Stellen wörtlich übernehmen?",
+        "optionen": [
+          "Ja, das ist sogar verlangt",
+          "Nein, alles muss neu sein"
+        ],
+        "richtig": 0,
+        "warum": "Die Aufgabe sagt ausdrücklich: Gelungene Stellen übernimmst du."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Schluss passt am besten zu einer Schilderung?",
+        "optionen": [
+          "Am nächsten Tag fuhren wir mit dem Bus heim und aßen Pizza.",
+          "Erst als die Glut nur noch schwach glimmt, kriechen wir müde in die Zelte.",
+          "Daraus habe ich gelernt, dass die Natur auch schön ist."
+        ],
+        "richtig": 1,
+        "warum": "Präsens, ein Bild (Glut), ein Gefühl (müde). Satz 1 erzählt weiter, Satz 3 ist eine Moral."
+      }
+    ],
+    "sicher": [
+      {
+        "typ": "tippen",
+        "frage": "Tippe alle umgangssprachlichen Wörter an.",
+        "tokens": [
+          [
+            "Die",
+            0
+          ],
+          [
+            "Fahrt",
+            0
+          ],
+          [
+            "war",
+            0
+          ],
+          [
+            "echt",
+            1
+          ],
+          [
+            "lang.",
+            0
+          ],
+          [
+            "Am",
+            0
+          ],
+          [
+            "Abend",
+            0
+          ],
+          [
+            "chillen",
+            1
+          ],
+          [
+            "wir",
+            0
+          ],
+          [
+            "am",
+            0
+          ],
+          [
+            "Feuer",
+            0
+          ],
+          [
+            "und",
+            0
+          ],
+          [
+            "futtern",
+            1
+          ],
+          [
+            "Stockbrot.",
+            0
+          ],
+          [
+            "Die",
+            0
+          ],
+          [
+            "Stimmung",
+            0
+          ],
+          [
+            "ist",
+            0
+          ],
+          [
+            "mega.",
+            1
+          ]
+        ],
+        "warum": "„echt“, „chillen“, „futtern“ und „mega“ sind Umgangssprache. Besser: „sehr“, „entspannen“, „essen“ und ein anschauliches Bild statt „mega“."
+      },
+      {
+        "typ": "tippen",
+        "frage": "Tippe die Sätze an, die zusammen eine Wiederholung im Satzbau bilden.",
+        "tokens": [
+          [
+            "Ich sehe den See.",
+            1
+          ],
+          [
+            "Ich sehe die Berge.",
+            1
+          ],
+          [
+            "Über den Gipfeln färbt sich der Himmel orange.",
+            0
+          ],
+          [
+            "Irgendwo ruft ein Vogel.",
+            0
+          ]
+        ],
+        "warum": "Die ersten beiden Sätze beginnen gleich und sind gleich gebaut. Besser verbinden: „Vor mir liegt der See, dahinter ragen die Berge auf.“"
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Ersetze die Umgangssprache.",
+        "satz": "Wir chillen am Feuer und labern.",
+        "tipp": "Wortkiste → Statt Umgangssprache",
+        "loesung": "Entspannt sitzen wir am Feuer und plaudern."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Löse die Wiederholung im Satzbau auf.",
+        "satz": "Ich höre das Feuer knistern. Ich höre eine Eule rufen.",
+        "tipp": "Subjekt wechseln · Sätze verbinden",
+        "loesung": "Das Feuer knistert leise, irgendwo im Wald ruft eine Eule."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Kürze die Einleitung auf das Wichtige.",
+        "satz": "Weil unsere Schule beim Sportfest gewonnen hat und der Direktor deshalb gesagt hat, dass die besten Klassen eine Belohnung bekommen, sind wir jetzt seit zwei Tagen am Bodensee.",
+        "tipp": "Was braucht der Leser wirklich für die Szene?",
+        "loesung": "Seit zwei Tagen sind wir nun schon am Bodensee – unsere Belohnung für das Sportfest."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Zeige das Gefühl, ohne „ich fühle mich“ zu schreiben.",
+        "satz": "Ich fühle mich wohl am Feuer.",
+        "tipp": "Körper · Ausruf · Wärme",
+        "loesung": "Die Wärme kriecht mir in die Finger. Hier könnte ich ewig sitzen!"
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Welcher Satz bringt einen Gedanken der Ich-Figur?",
+        "optionen": [
+          "Das Feuer brennt.",
+          "Wie lange wir wohl noch hier sitzen?",
+          "Wir sitzen am Feuer."
+        ],
+        "richtig": 1,
+        "warum": "Eine Frage, die sich die Ich-Figur stellt, lässt den Leser in ihren Kopf schauen."
+      }
+    ],
+    "schulaufgabe": [
+      {
+        "typ": "text",
+        "titel": "Transfer: Sternschnuppennacht",
+        "vlabel": "VORSICHT FEHLER · eigener Übungstext",
+        "auftrag": "Gleiche Aufgabe wie im Arbeitsheft, aber mit neuem Text: a) Beurteile die Einleitung. b) Markiere Gelungenes grün. c) Markiere Umgangssprache und Wiederholungen rot. d) Schreibe die vollständige Schilderung: Übernimm gelungene Stellen, formuliere schwache neu und ergänze einen Schluss.",
+        "vorlage": "Schon seit zwei Tagen sind wir im Schullandheim in den Bergen, und heute ist die Nacht, auf die alle gewartet haben. Unser Klassenlehrer hat schon am ersten Tag erzählt, dass heute ganz viele Sternschnuppen kommen sollen, weil die Erde durch irgendeine Staubwolke fliegt, und dass wir deshalb ausnahmsweise länger aufbleiben dürfen. Wir fanden das zuerst voll langweilig. Wir wollten lieber zocken. Jetzt liege ich auf der kühlen Wiese hinter dem Haus. Ich sehe den Himmel. Ich sehe die Sterne. Die anderen labern leise. Über mir funkelt die Milchstraße wie verschütteter Zucker. Das Gras kitzelt mich im Nacken.",
+        "loesung": "<p><b>Sternschnuppennacht</b></p>\n<p>Zwei Tage sind wir schon im Schullandheim in den Bergen, und endlich ist sie da: die Nacht der Sternschnuppen. Als unser Klassenlehrer sie angekündigt hat, waren wir wenig begeistert. Wir hätten lieber an der Konsole gespielt.</p>\n<p>Jetzt liege ich auf der kühlen Wiese hinter dem Haus. Das Gras kitzelt mich im Nacken, und es riecht nach Heu und feuchter Erde. Über mir funkelt die Milchstraße wie verschütteter Zucker. So viele Sterne habe ich noch nie gesehen! Neben mir flüstern die anderen, als hätten sie Angst, den Himmel zu stören.</p>\n<p>Plötzlich zieht ein heller Strich über das Schwarz. „Da!“, ruft Lea. Ich halte den Atem an. Schnell, wünsch dir was!</p>\n<p>Die Stunden vergehen wie im Flug. Erst als der Lehrer uns ins Haus schickt, stehe ich auf, die Jacke voller Grashalme und den Kopf voller Sterne. Langweilig? Keine Sekunde.</p>"
+      }
+    ]
+  },
+  "raster": [
+    "Einleitung gekürzt, Wichtiges behalten",
+    "Gelungene Stellen übernommen",
+    "Umgangssprache ersetzt",
+    "Wiederholungen aufgelöst",
+    "Mindestens 2 neue Sinneseindrücke",
+    "Gefühl oder Gedanke der Ich-Figur",
+    "Präsens für das Geschehen",
+    "Schluss mit Gefühl und Bezug zum Anfang"
+  ],
+  "merkzettel": [
+    [
+      "Aufgabentyp",
+      "Schilderung verbessern und fortsetzen: beurteilen → grün/rot markieren → neu schreiben mit Schluss."
+    ],
+    [
+      "Einleitung",
+      "Kurz: Ort, Zeit, Stimmung. Nebensächliches raus, Widersprüche raus."
+    ],
+    [
+      "Grün",
+      "Treffende Verben, anschauliche Adjektiv-Nomen-Paare, Sinneseindrücke. Die übernimmst du."
+    ],
+    [
+      "Rot",
+      "Umgangssprache, Wortwiederholungen, gleicher Satzbau hintereinander, Sätze mit „Und“ am Anfang."
+    ],
+    [
+      "Umgangssprache",
+      "Test: Stünde das so in der Zeitung? Wenn nicht, ersetzen."
+    ],
+    [
+      "Satzbau",
+      "Verbinden, umstellen, eine andere Person handeln lassen."
+    ],
+    [
+      "Ergänzen",
+      "Sinne (fühlen, riechen!), Ausrufe, Gedanken der Ich-Figur."
+    ],
+    [
+      "Zeitform",
+      "Präsens für den Moment. Ein kurzer Rückblick darf in der Vergangenheit stehen."
+    ],
+    [
+      "Schluss",
+      "2–4 Sätze, Gefühl, gern Bezug zum Anfang. Keine Moral."
+    ],
+    [
+      "Lösungsheft",
+      "Erst ganz am Ende. Vergleichen, nicht abschreiben."
+    ]
+  ],
+  "wortkiste": [
+    {
+      "g": "Statt Umgangssprache",
+      "i": [
+        "cool → toll, aufregend, lebendig",
+        "Pampa → Wildnis, Einsamkeit, abgelegene Natur",
+        "quatschen/labern → sich unterhalten, plaudern, erzählen",
+        "super-/mega- → weglassen oder „besonders“",
+        "hab → habe",
+        "zocken → spielen",
+        "chillen → entspannen, faulenzen",
+        "echt/voll → sehr, wirklich"
+      ]
+    },
+    {
+      "g": "Lagerfeuer & Abendstimmung",
+      "i": [
+        "knistern",
+        "prasseln",
+        "flackern",
+        "Funken stieben",
+        "Glut glimmt",
+        "Feuerschein",
+        "Wärme auf dem Gesicht",
+        "Rauch in der Nase",
+        "in Decken gehüllt",
+        "Sterne funkeln"
+      ]
+    },
+    {
+      "g": "Statt „sehen“ und „hören“",
+      "i": [
+        "blicken",
+        "beobachten",
+        "betrachten",
+        "lauschen",
+        "vernehmen",
+        "Da dringt … an mein Ohr",
+        "Mein Blick fällt auf …"
+      ]
+    },
+    {
+      "g": "Gefühle zeigen",
+      "i": [
+        "Ein Lächeln breitet sich aus",
+        "Ich lächle in mich hinein",
+        "Mir wird warm ums Herz",
+        "Am liebsten würde ich …",
+        "Ich atme tief durch",
+        "Die Augen werden schwer"
+      ]
+    },
+    {
+      "g": "Ausrufe & Gedanken",
+      "i": [
+        "Was für …!",
+        "Einfach herrlich!",
+        "Wer hätte das gedacht?",
+        "Wenn das doch nie aufhören würde!",
+        "Wie lange wir wohl noch …?"
+      ]
+    },
+    {
+      "g": "Satzanfänge statt „Und“ / „Ich“",
+      "i": [
+        "Dahinter …",
+        "Rundherum …",
+        "Neben mir …",
+        "Inzwischen …",
+        "Allerdings …",
+        "Ohne Eile …",
+        "Über uns …"
+      ]
+    },
+    {
+      "g": "Statt „gehen“",
+      "i": [
+        "schleichen",
+        "schlendern",
+        "stapfen",
+        "tappen",
+        "hasten",
+        "huschen"
+      ]
+    },
+    {
+      "g": "Statt „sagen“",
+      "i": [
+        "flüstern",
+        "murmeln",
+        "rufen",
+        "erzählen",
+        "lachen",
+        "wispern"
+      ]
+    }
+  ],
+  "korrektur": [
+    [
+      "T",
+      "Tempus",
+      "„Dann bin ich gegangen.“ → „Dann gehe ich.“"
+    ],
+    [
+      "A",
+      "Ausdruck",
+      "Umgangssprache, unpassendes Wort"
+    ],
+    [
+      "W",
+      "Wiederholung (auch Wdh)",
+      "Gleiches Wort kurz hintereinander"
+    ],
+    [
+      "Sb",
+      "Satzbau",
+      "Gleich gebaute Sätze, verdrehter Satz"
+    ],
+    [
+      "Gr",
+      "Grammatik",
+      "Falscher Fall, falsche Endung"
+    ],
+    [
+      "Bz",
+      "Bezug",
+      "Unklar, worauf sich „er“ oder „das“ bezieht"
+    ],
+    [
+      "R",
+      "Rechtschreibung",
+      "„das“ statt „dass“"
+    ],
+    [
+      "Z",
+      "Zeichensetzung",
+      "Komma, Redezeichen"
+    ]
+  ]
+}
