@@ -10,7 +10,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-schilderung-schreiben.json",
       "groesse": 27683,
-      "geaendert": "2026-11-19T20:59:24Z"
+      "geaendert": "2026-11-19T20:59:24+00:00"
     },
     {
       "id": "deutsch.schilderung-ueberarbeiten",
@@ -21,7 +21,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-schilderung-ueberarbeiten.json",
       "groesse": 28080,
-      "geaendert": "2026-11-19T20:59:24Z"
+      "geaendert": "2026-11-19T20:59:24+00:00"
     },
     {
       "id": "deutsch.ah-s31-klassensprecherfahrt",
@@ -32,7 +32,29 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-arbeitsheft-s31-klassensprecherfahrt.json",
       "groesse": 26064,
-      "geaendert": "2026-11-19T20:59:24Z"
+      "geaendert": "2026-11-19T20:59:24+00:00"
+    },
+    {
+      "id": "englisch.formal-email",
+      "typ": "thema",
+      "fach": "englisch",
+      "titel": "Formal email (complaint)",
+      "stufe": "Realschule Bayern · 9./10. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/englisch/englisch-formal-email.json",
+      "groesse": 12555,
+      "geaendert": "2026-11-19T21:27:59+00:00"
+    },
+    {
+      "id": "englisch.if-clauses",
+      "typ": "thema",
+      "fach": "englisch",
+      "titel": "If-clauses (Type 1, 2, 3)",
+      "stufe": "Realschule Bayern · 9./10. Klasse",
+      "version": "1.0",
+      "pfad": "pakete/englisch/englisch-if-clauses.json",
+      "groesse": 7283,
+      "geaendert": "2026-11-19T21:27:59+00:00"
     },
     {
       "id": "mathe.lgs-einsetzungsverfahren",
@@ -43,7 +65,7 @@
       "version": "1.0",
       "pfad": "pakete/mathe/mathe-lgs-einsetzungsverfahren.json",
       "groesse": 11046,
-      "geaendert": "2026-11-19T21:26:40Z"
+      "geaendert": "2026-11-19T21:26:40+00:00"
     },
     {
       "id": "physik.elektrische-leistung",
@@ -54,7 +76,7 @@
       "version": "1.0",
       "pfad": "pakete/physik/physik-elektrische-leistung.json",
       "groesse": 8498,
-      "geaendert": "2026-11-19T21:26:40Z"
+      "geaendert": "2026-11-19T21:26:40+00:00"
     },
     {
       "id": "werkzeuge.formelsammlung",
@@ -65,7 +87,7 @@
       "version": "1.0",
       "pfad": "pakete/werkzeuge/formelsammlung.json",
       "groesse": 32429,
-      "geaendert": "2026-11-19T21:26:40Z"
+      "geaendert": "2026-11-19T21:26:40+00:00"
     }
   ]
 }

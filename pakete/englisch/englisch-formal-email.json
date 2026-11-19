@@ -1,0 +1,348 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "thema",
+  "id": "englisch.formal-email",
+  "version": "1.0",
+  "fach": "englisch",
+  "titel": "Formal email (complaint)",
+  "stufe": "Realschule Bayern · 9./10. Klasse",
+  "ueberblick": {
+    "aufgabe": "Du schreibst eine formelle E-Mail, zum Beispiel eine Beschwerde an eine Firma. Wichtig sind die richtige Anrede und Grußformel, ein klarer Grund im ersten Satz, ein höflicher, sachlicher Ton und keine Kurzformen.",
+    "ausgangslage": "You bought a pair of headphones from the online shop „SoundPoint“ (invented for this exercise). After one week, the left side stopped working. You want a replacement.",
+    "auftrag": "Write a formal email of complaint to the customer service (about 120–150 words).",
+    "ueberschrift": "Subject: Faulty headphones – order no. 48213",
+    "muster": "<p>Dear Sir or Madam,</p><p>I am writing to complain about a pair of headphones which I ordered from your online shop on 3 May (order no. 48213).</p><p>Unfortunately, after only one week the left side stopped working. I have used the headphones carefully and only at home. As they are still under guarantee, I would be grateful if you could send me a replacement as soon as possible.</p><p>I have attached a copy of the receipt. Please let me know if you need any further information.</p><p>I look forward to hearing from you.</p><p>Yours faithfully,<br>Alex Brown</p>",
+    "aufbau": [
+      [
+        "Subject line",
+        "Kurz und genau: worum geht es (mit Bestellnummer)."
+      ],
+      [
+        "Opening",
+        "Anrede + Grund des Schreibens im ersten Satz."
+      ],
+      [
+        "Main part",
+        "Was ist passiert? Was hast du schon versucht? Was möchtest du?"
+      ],
+      [
+        "Closing",
+        "Höflicher Schlusssatz + passende Grußformel + Name."
+      ]
+    ],
+    "kriterien": [
+      "Formelle Anrede und passende Grußformel",
+      "Grund im ersten Satz",
+      "Absätze für Opening, Main part, Closing",
+      "Höflicher, sachlicher Ton",
+      "Keine Kurzformen (I am statt I'm)",
+      "Klare Bitte am Ende",
+      "Wortzahl eingehalten"
+    ],
+    "erlaubt": [
+      "Höfliche Bitte mit „I would be grateful if …“",
+      "Erfundene Details (Datum, Nummer), wenn sie zur Aufgabe passen"
+    ],
+    "verboten": [
+      "Kurzformen wie I'm, don't, can't",
+      "Umgangssprache (Hi, guys, stuff)",
+      "Unhöfliche Drohungen",
+      "„Dear Sir“ mit „Yours sincerely“ mischen"
+    ]
+  },
+  "begleiter": [
+    {
+      "id": "plan",
+      "kurz": "Planen",
+      "titel": "Planen",
+      "label": "Erledigt?",
+      "ziel": "Du weißt, an wen du schreibst, warum und was du willst.",
+      "muss": [
+        "Empfänger geklärt: Name bekannt oder nicht?",
+        "Grund in einem Satz notiert",
+        "2–3 Details gesammelt (Datum, Problem, was du schon versucht hast)",
+        "Ziel notiert: Was soll die Firma tun?",
+        "Wortzahl der Aufgabe markiert"
+      ],
+      "hinweise": [
+        "Lies die Aufgabe zweimal und unterstreiche: Wer? Was ist passiert? Was willst du?",
+        "Kennst du den Namen der Person? Das entscheidet über Anrede und Grußformel.",
+        "Hier: kein Name → „Dear Sir or Madam“ und „Yours faithfully“."
+      ],
+      "frage": {
+        "frage": "Du kennst den Namen nicht. Welche Kombination passt?",
+        "optionen": [
+          "Dear Mr Smith … Yours faithfully",
+          "Dear Sir or Madam … Yours faithfully",
+          "Hi … Best wishes"
+        ],
+        "richtig": 1,
+        "warum": "Ohne Namen: „Dear Sir or Madam“ und „Yours faithfully“. Mit Namen: „Dear Mr/Ms …“ und „Yours sincerely“."
+      }
+    },
+    {
+      "id": "opening",
+      "kurz": "Opening",
+      "titel": "Opening",
+      "ziel": "Der Leser weiß nach dem ersten Satz, worum es geht.",
+      "muss": [
+        "Subject line mit Thema und Nummer",
+        "Formelle Anrede (Dear Mr/Ms + Nachname oder Dear Sir or Madam)",
+        "Komma nach der Anrede, nächstes Wort groß",
+        "Grund des Schreibens im ersten Satz",
+        "Keine Kurzformen"
+      ],
+      "fehler": [
+        "„Dear Sir“ + „Yours sincerely“ passt nicht zusammen",
+        "Mit „My name is …“ anfangen statt mit dem Grund"
+      ],
+      "phrases": [
+        "I am writing to complain about …",
+        "I am writing with regard to …",
+        "I am writing to inform you that …",
+        "I am writing in response to your advertisement …"
+      ],
+      "vorher": "Hi! I'm Alex and I've got a problem with your headphones.",
+      "nachher": "Dear Sir or Madam,<br>I am writing to complain about a pair of headphones which I ordered from your shop.",
+      "vnLabel": [
+        "Zu locker",
+        "Formell"
+      ]
+    },
+    {
+      "id": "main",
+      "kurz": "Main part",
+      "titel": "Main part",
+      "ziel": "Du beschreibst das Problem klar und sagst, was du möchtest.",
+      "muss": [
+        "Was ist passiert? (mit Datum/Details)",
+        "Was hast du schon getan?",
+        "Was möchtest du? (Ersatz, Geld zurück, Reparatur)",
+        "Höfliche Formulierungen statt Befehlen",
+        "Ein Absatz pro Gedanke"
+      ],
+      "fehler": [
+        "Befehle wie „Send me new ones!“",
+        "Zu viele Ausrufezeichen"
+      ],
+      "phrases": [
+        "Unfortunately, …",
+        "After only one week, …",
+        "I would be grateful if you could …",
+        "I would like to ask for a refund / replacement.",
+        "As the product is still under guarantee, …"
+      ],
+      "hinweise": [
+        "Schreib das Problem in der Reihenfolge, in der es passiert ist.",
+        "Mach aus jeder Forderung eine höfliche Bitte.",
+        "„Send me new headphones!“ → „I would be grateful if you could send me a replacement.“"
+      ],
+      "vorher": "The headphones are broken. Send me new ones!",
+      "nachher": "Unfortunately, the left side stopped working after one week. I would be grateful if you could send me a replacement.",
+      "vnLabel": [
+        "Unhöflich",
+        "Höflich"
+      ]
+    },
+    {
+      "id": "closing",
+      "kurz": "Closing",
+      "titel": "Closing",
+      "ziel": "Du beendest die E-Mail höflich und mit der passenden Grußformel.",
+      "muss": [
+        "Schlusssatz (z. B. Antwort erwünscht)",
+        "Grußformel passend zur Anrede",
+        "Komma nach der Grußformel",
+        "Dein Name darunter"
+      ],
+      "phrases": [
+        "I look forward to hearing from you.",
+        "Please let me know if you need any further information.",
+        "Thank you in advance for your help.",
+        "Yours faithfully, (ohne Namen in der Anrede)",
+        "Yours sincerely, (mit Namen in der Anrede)"
+      ],
+      "frage": {
+        "frage": "Welcher Schlusssatz ist formell?",
+        "optionen": [
+          "See you!",
+          "I look forward to hearing from you.",
+          "Write back soon, ok?"
+        ],
+        "richtig": 1,
+        "warum": "„I look forward to hearing from you.“ ist der klassische formelle Schlusssatz."
+      }
+    },
+    {
+      "id": "check",
+      "kurz": "Check",
+      "titel": "Endkontrolle",
+      "label": "Erledigt?",
+      "ziel": "Deine E-Mail ist formal korrekt und fehlerfrei.",
+      "muss": [
+        "Keine Kurzformen (I'm, don't, can't …)",
+        "Anrede und Grußformel passen zusammen",
+        "Absätze erkennbar",
+        "Zeitformen geprüft (simple past für das, was passiert ist)",
+        "Wörter gezählt",
+        "Rechtschreibung geprüft (Großschreibung: I, Monday, May)"
+      ],
+      "hilfen": [
+        {
+          "t": "Kurzformen auflösen",
+          "items": [
+            "I'm → I am",
+            "don't → do not",
+            "can't → cannot",
+            "I'd → I would",
+            "it's → it is"
+          ]
+        }
+      ]
+    }
+  ],
+  "uebungen": {
+    "einstieg": [
+      {
+        "typ": "auswahl",
+        "frage": "Which sentence is formal?",
+        "optionen": [
+          "I'm writing coz of my order.",
+          "I am writing with regard to my order.",
+          "Hey, about my order …"
+        ],
+        "richtig": 1,
+        "warum": "No short forms, no slang: „I am writing with regard to …“."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "Du schreibst „Dear Ms Taylor,“. Welche Grußformel passt?",
+        "optionen": [
+          "Yours faithfully,",
+          "Yours sincerely,",
+          "Love,"
+        ],
+        "richtig": 1,
+        "warum": "Mit Namen in der Anrede: „Yours sincerely“."
+      },
+      {
+        "typ": "tippen",
+        "frage": "Tippe alle Kurzformen an.",
+        "tokens": [
+          [
+            "I'm",
+            1
+          ],
+          [
+            "writing",
+            0
+          ],
+          [
+            "because",
+            0
+          ],
+          [
+            "I",
+            0
+          ],
+          [
+            "can't",
+            1
+          ],
+          [
+            "use",
+            0
+          ],
+          [
+            "the",
+            0
+          ],
+          [
+            "product.",
+            0
+          ],
+          [
+            "It's",
+            1
+          ],
+          [
+            "broken.",
+            0
+          ]
+        ],
+        "warum": "I'm = I am, can't = cannot, It's = It is. In formellen Texten schreibst du sie aus."
+      }
+    ],
+    "sicher": [
+      {
+        "typ": "umschreiben",
+        "frage": "Make it formal and polite.",
+        "satz": "Give me my money back now!",
+        "tipp": "I would be grateful if … / I would like to …",
+        "loesung": "I would be grateful if you could refund the full price."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Write a formal first sentence.",
+        "satz": "Hi, I've got a problem with the tickets I bought.",
+        "tipp": "Dear Sir or Madam, I am writing to …",
+        "loesung": "Dear Sir or Madam, I am writing to complain about the tickets I bought from your website."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Write a formal closing.",
+        "satz": "Write back soon! Bye, Alex",
+        "tipp": "I look forward to … / Yours faithfully,",
+        "loesung": "I look forward to hearing from you. Yours faithfully, Alex Brown"
+      }
+    ],
+    "schulaufgabe": [
+      {
+        "typ": "text",
+        "titel": "Complaint: school trip coach",
+        "vlabel": "SITUATION",
+        "auftrag": "Write a formal email (120–150 words) to the bus company „Alpine Coaches“ (invented). Complain about your class trip: the coach was two hours late and the air conditioning did not work. Ask for a partial refund.",
+        "vorlage": "Your class booked a coach from „Alpine Coaches“ for a trip to Salzburg on 14 June. The coach arrived two hours late, so you missed the guided tour. On the way back, the air conditioning did not work and it was very hot.",
+        "loesung": "<p><b>Subject: Class trip to Salzburg on 14 June – booking no. 2207</b></p><p>Dear Sir or Madam,</p><p>I am writing to complain about the coach trip which our class booked with your company for 14 June.</p><p>Unfortunately, the coach arrived two hours late. As a result, we missed the guided tour of Salzburg, which we had already paid for. In addition, the air conditioning did not work on the way back, so the journey was very uncomfortable in the heat.</p><p>We were very disappointed, as we had been looking forward to this trip for a long time. I would therefore be grateful if you could refund part of the price.</p><p>I look forward to hearing from you.</p><p>Yours faithfully,<br>Alex Brown, class 9b</p>"
+      }
+    ]
+  },
+  "raster": [
+    "Subject line",
+    "Formelle Anrede",
+    "Grund im ersten Satz",
+    "Problem mit Details",
+    "Höfliche Bitte",
+    "Schlusssatz",
+    "Grußformel passt zur Anrede",
+    "Keine Kurzformen",
+    "Absätze",
+    "Wortzahl"
+  ],
+  "merkzettel": [
+    [
+      "Anrede",
+      "Name bekannt: Dear Mr/Ms Smith, – sonst: Dear Sir or Madam,"
+    ],
+    [
+      "Grußformel",
+      "Mit Name: Yours sincerely, – ohne Name: Yours faithfully,"
+    ],
+    [
+      "Erster Satz",
+      "I am writing to … / I am writing with regard to …"
+    ],
+    [
+      "Bitten",
+      "I would be grateful if you could … / I would like to …"
+    ],
+    [
+      "Schluss",
+      "I look forward to hearing from you."
+    ],
+    [
+      "Tabu",
+      "Kurzformen, Slang, Befehle, viele Ausrufezeichen."
+    ]
+  ]
+}

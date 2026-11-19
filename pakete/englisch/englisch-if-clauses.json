@@ -1,0 +1,240 @@
+{
+  "format": "lernen-paket/2",
+  "typ": "thema",
+  "id": "englisch.if-clauses",
+  "version": "1.0",
+  "fach": "englisch",
+  "titel": "If-clauses (Type 1, 2, 3)",
+  "stufe": "Realschule Bayern · 9./10. Klasse",
+  "ueberblick": {
+    "aufgabe": "Bedingungssätze haben zwei Teile: den if-Satz (Bedingung) und den Hauptsatz (Folge). Welche Zeitformen du nimmst, hängt davon ab, ob etwas wahrscheinlich, unwahrscheinlich oder schon vorbei ist.",
+    "aufbau": [
+      [
+        "Type 1 – wahrscheinlich",
+        "if + simple present → will + Infinitiv"
+      ],
+      [
+        "Type 2 – unwahrscheinlich",
+        "if + simple past → would + Infinitiv"
+      ],
+      [
+        "Type 3 – vorbei, nicht mehr änderbar",
+        "if + past perfect → would have + past participle"
+      ]
+    ],
+    "kriterien": [
+      "Richtiger Typ erkannt",
+      "Zeitform im if-Satz richtig",
+      "Zeitform im Hauptsatz richtig",
+      "Komma, wenn der if-Satz vorne steht"
+    ],
+    "erlaubt": [
+      "Hauptsatz zuerst (dann ohne Komma)",
+      "Bei Type 2 „were“ für alle Personen (If I were you …)"
+    ],
+    "verboten": [
+      "will oder would im if-Satz",
+      "Typen mischen, ohne Grund"
+    ]
+  },
+  "begleiter": [
+    {
+      "id": "regel",
+      "kurz": "Regel",
+      "titel": "Regel in einem Satz",
+      "label": "Erledigt?",
+      "ziel": "Du kennst die drei Typen und ihre Zeitformen.",
+      "wissen": "Im if-Satz steht nie will oder would. Will/would steht immer im Hauptsatz.",
+      "muss": [
+        "Type 1 notiert: if + present → will",
+        "Type 2 notiert: if + past → would",
+        "Type 3 notiert: if + past perfect → would have + 3. Form",
+        "Merksatz: kein will/would im if-Satz"
+      ],
+      "hilfen": [
+        {
+          "t": "Merkhilfe",
+          "items": [
+            "Type 1: real möglich – „If it rains, we will stay at home.“",
+            "Type 2: Traum/Vorstellung – „If I had a million euros, I would travel.“",
+            "Type 3: Bedauern über Vergangenes – „If I had studied, I would have passed.“"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "kurz": "Signale",
+      "titel": "Typ erkennen",
+      "ziel": "Du erkennst am Inhalt, welcher Typ gebraucht wird.",
+      "muss": [
+        "Gefragt: Kann das wirklich passieren? → Type 1",
+        "Gefragt: Ist es unwahrscheinlich oder unmöglich? → Type 2",
+        "Gefragt: Ist es schon vorbei? → Type 3",
+        "Zeitangaben beachtet (yesterday, last week → Type 3)"
+      ],
+      "hinweise": [
+        "Stell dir vor, wann das Ganze spielt: jetzt, in der Zukunft oder in der Vergangenheit?",
+        "„yesterday“, „last year“ deuten auf Type 3.",
+        "„If I were a bird …“ ist unmöglich → Type 2."
+      ],
+      "frage": {
+        "frage": "„If I ___ (know) about the party yesterday, I ___ (come).“ Welcher Typ?",
+        "optionen": [
+          "Type 1",
+          "Type 2",
+          "Type 3"
+        ],
+        "richtig": 2,
+        "warum": "Es geht um gestern, also Vergangenes, das man nicht mehr ändern kann: Type 3 – If I had known, I would have come."
+      }
+    },
+    {
+      "id": "bilden",
+      "kurz": "Bilden",
+      "titel": "Satz bilden",
+      "ziel": "Du setzt die richtigen Formen ein.",
+      "muss": [
+        "Erst den if-Satz gebildet",
+        "Dann den Hauptsatz",
+        "Unregelmäßige Verben geprüft (3. Form)",
+        "Komma gesetzt, wenn if vorne steht"
+      ],
+      "fehler": [
+        "If I would have …",
+        "If it will rain …"
+      ],
+      "phrases": [
+        "If it rains tomorrow, we will …",
+        "If I were you, I would …",
+        "If I had known, I would have …"
+      ],
+      "vorher": "If I would have time, I will help you.",
+      "nachher": "If I had time, I would help you.",
+      "vnLabel": [
+        "Falsch",
+        "Richtig (Type 2)"
+      ]
+    },
+    {
+      "id": "check",
+      "kurz": "Check",
+      "titel": "Abhak-Check",
+      "label": "Erledigt?",
+      "ziel": "Deine Sätze sind fehlerfrei.",
+      "muss": [
+        "Kein will/would im if-Satz",
+        "Zeitformen passen zum Typ",
+        "3. Form bei Type 3 richtig (gone, seen, written …)",
+        "Komma geprüft"
+      ]
+    }
+  ],
+  "uebungen": {
+    "einstieg": [
+      {
+        "typ": "auswahl",
+        "frage": "If it ___ tomorrow, we will stay at home.",
+        "optionen": [
+          "rains",
+          "will rain",
+          "rained"
+        ],
+        "richtig": 0,
+        "warum": "Type 1: if + simple present."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "If I ___ rich, I would buy a boat.",
+        "optionen": [
+          "am",
+          "were",
+          "will be"
+        ],
+        "richtig": 1,
+        "warum": "Type 2: if + simple past (were für alle Personen)."
+      },
+      {
+        "typ": "auswahl",
+        "frage": "If she had studied, she ___ the test.",
+        "optionen": [
+          "would pass",
+          "will pass",
+          "would have passed"
+        ],
+        "richtig": 2,
+        "warum": "Type 3: would have + past participle."
+      }
+    ],
+    "sicher": [
+      {
+        "typ": "tippen",
+        "frage": "Tippe die Sätze an, die einen Fehler haben.",
+        "tokens": [
+          [
+            "If it will rain, we stay inside.",
+            1
+          ],
+          [
+            "If I had more time, I would read more.",
+            0
+          ],
+          [
+            "If he would come, I would be happy.",
+            1
+          ],
+          [
+            "If you heat ice, it melts.",
+            0
+          ]
+        ],
+        "warum": "Im if-Satz steht nie will oder would. Richtig: „If it rains, we will stay inside.“ und „If he came, I would be happy.“"
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Write a type 2 sentence.",
+        "satz": "I don't have a dog. (I / take it for walks)",
+        "tipp": "If + simple past, would + Infinitiv",
+        "loesung": "If I had a dog, I would take it for walks."
+      },
+      {
+        "typ": "umschreiben",
+        "frage": "Write a type 3 sentence.",
+        "satz": "We missed the bus. We were late.",
+        "tipp": "If + past perfect, would have + 3. Form",
+        "loesung": "If we had not missed the bus, we would not have been late."
+      }
+    ],
+    "schulaufgabe": [
+      {
+        "typ": "umschreiben",
+        "frage": "Complete with the correct form (all three types).",
+        "satz": "a) If you ___ (call) me, I will help you. b) If I ___ (be) you, I would apologise. c) If they ___ (leave) earlier, they would have caught the train.",
+        "tipp": "Bestimme zuerst für jeden Satz den Typ.",
+        "loesung": "a) call (Type 1) · b) were (Type 2) · c) had left (Type 3)"
+      }
+    ]
+  },
+  "merkzettel": [
+    [
+      "Type 1",
+      "if + present → will + Infinitiv (wahrscheinlich)"
+    ],
+    [
+      "Type 2",
+      "if + past → would + Infinitiv (unwahrscheinlich)"
+    ],
+    [
+      "Type 3",
+      "if + past perfect → would have + 3. Form (vorbei)"
+    ],
+    [
+      "Goldene Regel",
+      "Kein will / would im if-Satz."
+    ],
+    [
+      "Komma",
+      "Nur wenn der if-Satz vorne steht."
+    ]
+  ]
+}
