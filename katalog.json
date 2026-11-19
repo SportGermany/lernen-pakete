@@ -10,7 +10,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-schilderung-schreiben.json",
       "groesse": 27683,
-      "geaendert": "2026-11-19T20:50:20+00:00"
+      "geaendert": "2026-11-19T20:59:24Z"
     },
     {
       "id": "deutsch.schilderung-ueberarbeiten",
@@ -21,7 +21,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-schilderung-ueberarbeiten.json",
       "groesse": 28080,
-      "geaendert": "2026-11-19T20:50:20+00:00"
+      "geaendert": "2026-11-19T20:59:24Z"
     },
     {
       "id": "deutsch.ah-s31-klassensprecherfahrt",
@@ -32,7 +32,7 @@
       "version": "1.0",
       "pfad": "pakete/deutsch/deutsch-arbeitsheft-s31-klassensprecherfahrt.json",
       "groesse": 26064,
-      "geaendert": "2026-11-19T20:50:20+00:00"
+      "geaendert": "2026-11-19T20:59:24Z"
     }
   ]
 }
