@@ -43,7 +43,7 @@
       "version": "1.0",
       "pfad": "pakete/mathe/mathe-lgs-einsetzungsverfahren.json",
       "groesse": 11046,
-      "geaendert": "2026-11-19T21:21:37+00:00"
+      "geaendert": "2026-11-19T21:26:40+00:00"
     },
     {
       "id": "physik.elektrische-leistung",
@@ -54,7 +54,7 @@
       "version": "1.0",
       "pfad": "pakete/physik/physik-elektrische-leistung.json",
       "groesse": 8498,
-      "geaendert": "2026-11-19T21:21:23+00:00"
+      "geaendert": "2026-11-19T21:26:40+00:00"
     },
     {
       "id": "werkzeuge.formelsammlung",
@@ -65,7 +65,7 @@
       "version": "1.0",
       "pfad": "pakete/werkzeuge/formelsammlung.json",
       "groesse": 32429,
-      "geaendert": "2026-11-19T21:20:06+00:00"
+      "geaendert": "2026-11-19T21:26:40+00:00"
     }
   ]
 }
